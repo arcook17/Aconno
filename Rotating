@@ -1,0 +1,2043 @@
+nRF Connect, 2018-03-12
+aconno DATA STREAM  (D8:C5:19:81:B9:B6)
+D	17:14:20.803	[Server callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	17:14:20.803	[Server] Device with address D8:C5:19:81:B9:B6 connected
+D	17:14:20.810	[Callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	17:14:20.811	Connected to D8:C5:19:81:B9:B6
+D	17:14:20.814	[Broadcast] Action received: android.bluetooth.device.action.ACL_CONNECTED
+V	17:14:20.815	Discovering services...
+D	17:14:20.815	gatt.discoverServices()
+I	17:14:21.146	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+D	17:14:21.298	[Callback] Services discovered with status: 0
+I	17:14:21.301	Services discovered
+V	17:14:21.309	Generic Access (0x1800)
+- Device Name [R W] (0x2A00)
+- Appearance [R] (0x2A01)
+- Peripheral Preferred Connection Parameters [R] (0x2A04)
+Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+   Client Characteristic Configuration (0x2902)
+Unknown Service (0000acc0-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [N R] (00005283-0000-1000-8000-00805f9b34fb)
+   Client Characteristic Configuration (0x2902)
+I	17:14:21.370	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
+V	17:14:22.294	Enabling notifications for 00005283-0000-1000-8000-00805f9b34fb
+D	17:14:22.294	gatt.setCharacteristicNotification(00005283-0000-1000-8000-00805f9b34fb, true)
+D	17:14:22.295	gatt.writeDescriptor(00002902-0000-1000-8000-00805f9b34fb, value=0x0100)
+I	17:14:22.395	Data written to descr. 00002902-0000-1000-8000-00805f9b34fb, value: (0x) 01-00
+A	17:14:22.395	"Notifications enabled" sent
+V	17:14:22.405	Notifications enabled for 00005283-0000-1000-8000-00805f9b34fb
+I	17:14:25.223	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) AA-AA-AA-AA-AA-AA
+A	17:14:25.223	"(0x) AA-AA-AA-AA-AA-AA" received
+I	17:14:25.223	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) AA-AA-AA-AA-AA-AA
+A	17:14:25.223	"(0x) AA-AA-AA-AA-AA-AA" received
+I	17:14:25.224	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) AA-AA-AA-AA-AA-AA
+A	17:14:25.224	"(0x) AA-AA-AA-AA-AA-AA" received
+I	17:14:25.225	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) AA-AA-AA-AA-AA-AA
+A	17:14:25.225	"(0x) AA-AA-AA-AA-AA-AA" received
+I	17:14:25.270	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-44-03-8B-40-4B
+A	17:14:25.270	"(0x) FE-44-03-8B-40-4B" received
+I	17:14:25.272	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E1-00-F6-3C-24
+A	17:14:25.272	"(0x) FE-E1-00-F6-3C-24" received
+I	17:14:25.272	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-5C-FE-6C-40-A8
+A	17:14:25.272	"(0x) FF-5C-FE-6C-40-A8" received
+I	17:14:25.273	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-BF-FC-3F-44-7B
+A	17:14:25.273	"(0x) FF-BF-FC-3F-44-7B" received
+I	17:14:25.320	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-C2-FB-54-40-64
+A	17:14:25.320	"(0x) FF-C2-FB-54-40-64" received
+I	17:14:25.321	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-6B-FB-9F-3E-B3
+A	17:14:25.321	"(0x) FF-6B-FB-9F-3E-B3" received
+I	17:14:25.322	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E8-FC-C6-3F-84
+A	17:14:25.322	"(0x) FE-E8-FC-C6-3F-84" received
+I	17:14:25.322	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-52-FE-8A-40-D3
+A	17:14:25.322	"(0x) FE-52-FE-8A-40-D3" received
+I	17:14:25.369	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-F8-00-43-40-D9
+A	17:14:25.369	"(0x) FD-F8-00-43-40-D9" received
+I	17:14:25.369	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-FD-01-6B-40-34
+A	17:14:25.369	"(0x) FD-FD-01-6B-40-34" received
+I	17:14:25.370	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-16-01-D4-40-49
+A	17:14:25.370	"(0x) FE-16-01-D4-40-49" received
+I	17:14:25.371	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E0-FF-6A-40-B7
+A	17:14:25.371	"(0x) FE-E0-FF-6A-40-B7" received
+I	17:14:25.420	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-C0-FF-76-40-AD
+A	17:14:25.420	"(0x) FE-C0-FF-76-40-AD" received
+I	17:14:25.420	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-C8-FF-83-40-99
+A	17:14:25.420	"(0x) FE-C8-FF-83-40-99" received
+I	17:14:25.421	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-BE-FF-A9-40-83
+A	17:14:25.421	"(0x) FE-BE-FF-A9-40-83" received
+I	17:14:25.422	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E6-FF-E1-40-47
+A	17:14:25.422	"(0x) FE-E6-FF-E1-40-47" received
+I	17:14:25.466	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E9-FF-E4-40-48
+A	17:14:25.466	"(0x) FE-E9-FF-E4-40-48" received
+I	17:14:25.466	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-DD-FF-E0-40-69
+A	17:14:25.466	"(0x) FE-DD-FF-E0-40-69" received
+I	17:14:25.467	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-DF-FF-E8-40-6D
+A	17:14:25.467	"(0x) FE-DF-FF-E8-40-6D" received
+I	17:14:25.468	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F9-FF-B2-40-5F
+A	17:14:25.468	"(0x) FE-F9-FF-B2-40-5F" received
+I	17:14:25.515	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-FF-FF-BC-40-65
+A	17:14:25.515	"(0x) FF-FF-FF-BC-40-65" received
+I	17:14:25.515	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FF-FF-AA-40-65
+A	17:14:25.515	"(0x) FE-FF-FF-AA-40-65" received
+I	17:14:25.515	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-02-FF-AB-40-6C
+A	17:14:25.515	"(0x) FF-02-FF-AB-40-6C" received
+I	17:14:25.516	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FC-FF-23-40-A3
+A	17:14:25.516	"(0x) FE-FC-FF-23-40-A3" received
+I	17:14:25.564	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FE-FE-D4-40-92
+A	17:14:25.564	"(0x) FE-FE-FE-D4-40-92" received
+I	17:14:25.564	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FF-FE-79-40-A7
+A	17:14:25.564	"(0x) FE-FF-FE-79-40-A7" received
+I	17:14:25.564	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-0B-FE-1B-40-B3
+A	17:14:25.564	"(0x) FF-0B-FE-1B-40-B3" received
+I	17:14:25.565	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-93-FF-6B-41-E6
+A	17:14:25.565	"(0x) FE-93-FF-6B-41-E6" received
+I	17:14:25.613	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-38-00-4D-40-CF
+A	17:14:25.613	"(0x) FE-38-00-4D-40-CF" received
+I	17:14:25.613	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-57-01-0A-3F-F8
+A	17:14:25.613	"(0x) FE-57-01-0A-3F-F8" received
+I	17:14:25.614	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-AA-00-F4-3F-BB
+A	17:14:25.614	"(0x) FE-AA-00-F4-3F-BB" received
+I	17:14:25.614	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-24-00-14-40-1A
+A	17:14:25.614	"(0x) FF-24-00-14-40-1A" received
+I	17:14:25.661	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-26-00-06-40-5A
+A	17:14:25.661	"(0x) FF-26-00-06-40-5A" received
+I	17:14:25.661	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-1B-FF-FE-40-98
+A	17:14:25.661	"(0x) FF-1B-FF-FE-40-98" received
+I	17:14:25.663	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-0F-FF-FA-40-99
+A	17:14:25.663	"(0x) FF-0F-FF-FA-40-99" received
+I	17:14:25.663	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FD-FF-A3-40-77
+A	17:14:25.663	"(0x) FE-FD-FF-A3-40-77" received
+I	17:14:25.710	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FF-FF-9B-40-6C
+A	17:14:25.710	"(0x) FE-FF-FF-9B-40-6C" received
+I	17:14:25.710	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-02-FF-94-40-4B
+A	17:14:25.710	"(0x) FF-02-FF-94-40-4B" received
+I	17:14:25.710	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FE-FF-98-40-67
+A	17:14:25.710	"(0x) FE-FE-FF-98-40-67" received
+I	17:14:25.711	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FC-FF-B8-40-6E
+A	17:14:25.711	"(0x) FE-FC-FF-B8-40-6E" received
+I	17:14:25.759	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FC-FF-B8-40-75
+A	17:14:25.759	"(0x) FE-FC-FF-B8-40-75" received
+I	17:14:25.760	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F7-FF-B4-40-85
+A	17:14:25.760	"(0x) FE-F7-FF-B4-40-85" received
+I	17:14:25.760	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F8-FF-C0-40-81
+A	17:14:25.760	"(0x) FE-F8-FF-C0-40-81" received
+I	17:14:25.760	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-2C-FF-EA-40-6E
+A	17:14:25.760	"(0x) FF-2C-FF-EA-40-6E" received
+I	17:14:25.808	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-35-FF-F4-40-7D
+A	17:14:25.808	"(0x) FF-35-FF-F4-40-7D" received
+I	17:14:25.808	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-30-FF-F2-40-8D
+A	17:14:25.808	"(0x) FF-30-FF-F2-40-8D" received
+I	17:14:25.809	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-27-FF-F1-40-7F
+A	17:14:25.809	"(0x) FF-27-FF-F1-40-7F" received
+I	17:14:25.809	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FE-FF-E5-40-97
+A	17:14:25.809	"(0x) FE-FE-FF-E5-40-97" received
+I	17:14:25.856	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FD-FF-D8-40-80
+A	17:14:25.856	"(0x) FE-FD-FF-D8-40-80" received
+I	17:14:25.857	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FB-FF-D6-40-7E
+A	17:14:25.857	"(0x) FE-FB-FF-D6-40-7E" received
+I	17:14:25.857	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F1-FF-CF-40-92
+A	17:14:25.857	"(0x) FE-F1-FF-CF-40-92" received
+I	17:14:25.857	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-0E-FF-AC-40-8A
+A	17:14:25.857	"(0x) FF-0E-FF-AC-40-8A" received
+I	17:14:25.905	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-09-FF-B1-40-76
+A	17:14:25.905	"(0x) FF-09-FF-B1-40-76" received
+I	17:14:25.905	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-06-FF-AF-40-7A
+A	17:14:25.905	"(0x) FF-06-FF-AF-40-7A" received
+I	17:14:25.905	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FB-FF-AB-40-6A
+A	17:14:25.905	"(0x) FE-FB-FF-AB-40-6A" received
+I	17:14:25.906	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-15-FF-F0-40-55
+A	17:14:25.906	"(0x) FF-15-FF-F0-40-55" received
+I	17:14:25.954	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-07-FF-F9-40-57
+A	17:14:25.954	"(0x) FF-07-FF-F9-40-57" received
+I	17:14:25.954	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-09-FF-F5-40-6A
+A	17:14:25.954	"(0x) FF-09-FF-F5-40-6A" received
+I	17:14:25.954	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-02-FF-F6-40-69
+A	17:14:25.954	"(0x) FF-02-FF-F6-40-69" received
+I	17:14:25.955	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-00-FF-98-40-51
+A	17:14:25.955	"(0x) FF-00-FF-98-40-51" received
+I	17:14:26.003	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-01-FF-A2-40-5A
+A	17:14:26.003	"(0x) FF-01-FF-A2-40-5A" received
+I	17:14:26.003	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FA-FF-A7-40-56
+A	17:14:26.003	"(0x) FE-FA-FF-A7-40-56" received
+I	17:14:26.003	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FD-FF-A8-40-62
+A	17:14:26.003	"(0x) FE-FD-FF-A8-40-62" received
+I	17:14:26.004	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-13-FF-A1-40-5D
+A	17:14:26.004	"(0x) FF-13-FF-A1-40-5D" received
+I	17:14:26.051	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-1E-FF-AB-40-68
+A	17:14:26.051	"(0x) FF-1E-FF-AB-40-68" received
+I	17:14:26.051	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-26-FF-AE-40-4E
+A	17:14:26.051	"(0x) FF-26-FF-AE-40-4E" received
+I	17:14:26.052	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-2A-FF-AD-40-54
+A	17:14:26.052	"(0x) FF-2A-FF-AD-40-54" received
+I	17:14:26.052	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-06-FF-DD-40-49
+A	17:14:26.052	"(0x) FF-06-FF-DD-40-49" received
+I	17:14:26.100	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-08-FF-D1-40-5E
+A	17:14:26.100	"(0x) FF-08-FF-D1-40-5E" received
+I	17:14:26.100	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-03-FF-DC-40-6B
+A	17:14:26.100	"(0x) FF-03-FF-DC-40-6B" received
+I	17:14:26.100	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F8-FF-E6-40-63
+A	17:14:26.100	"(0x) FE-F8-FF-E6-40-63" received
+I	17:14:26.102	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-08-FF-F7-40-77
+A	17:14:26.102	"(0x) FF-08-FF-F7-40-77" received
+I	17:14:26.148	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FF-FF-F9-40-5D
+A	17:14:26.148	"(0x) FE-FF-FF-F9-40-5D" received
+I	17:14:26.149	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-09-FF-FC-40-56
+A	17:14:26.149	"(0x) FF-09-FF-FC-40-56" received
+I	17:14:26.149	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-18-FF-FA-40-64
+A	17:14:26.149	"(0x) FF-18-FF-FA-40-64" received
+I	17:14:26.151	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-74-FF-65-40-CD
+A	17:14:26.151	"(0x) FF-74-FF-65-40-CD" received
+I	17:14:26.198	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-73-FF-62-40-C8
+A	17:14:26.198	"(0x) FF-73-FF-62-40-C8" received
+I	17:14:26.198	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-7F-FF-62-40-C1
+A	17:14:26.198	"(0x) FF-7F-FF-62-40-C1" received
+I	17:14:26.198	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-79-FF-5F-40-B2
+A	17:14:26.198	"(0x) FF-79-FF-5F-40-B2" received
+I	17:14:26.198	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-C6-FF-D9-40-66
+A	17:14:26.198	"(0x) FE-C6-FF-D9-40-66" received
+I	17:14:26.246	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-CD-FF-E4-40-5B
+A	17:14:26.246	"(0x) FE-CD-FF-E4-40-5B" received
+I	17:14:26.247	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-C7-FF-E5-40-5E
+A	17:14:26.247	"(0x) FE-C7-FF-E5-40-5E" received
+I	17:14:26.248	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-AF-FF-EB-40-49
+A	17:14:26.248	"(0x) FE-AF-FF-EB-40-49" received
+I	17:14:26.249	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F3-FF-D5-40-57
+A	17:14:26.249	"(0x) FE-F3-FF-D5-40-57" received
+I	17:14:26.295	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F7-FF-A1-40-67
+A	17:14:26.295	"(0x) FE-F7-FF-A1-40-67" received
+I	17:14:26.295	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-0C-FF-65-40-53
+A	17:14:26.295	"(0x) FF-0C-FF-65-40-53" received
+I	17:14:26.295	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-3A-FF-47-40-45
+A	17:14:26.295	"(0x) FF-3A-FF-47-40-45" received
+I	17:14:26.297	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-55-FF-A4-40-78
+A	17:14:26.297	"(0x) FF-55-FF-A4-40-78" received
+I	17:14:26.343	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-44-FF-A8-40-75
+A	17:14:26.343	"(0x) FF-44-FF-A8-40-75" received
+I	17:14:26.344	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-42-FF-AE-40-7E
+A	17:14:26.344	"(0x) FF-42-FF-AE-40-7E" received
+I	17:14:26.344	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-35-FF-AF-40-76
+A	17:14:26.344	"(0x) FF-35-FF-AF-40-76" received
+I	17:14:26.346	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-C0-FF-AB-40-84
+A	17:14:26.346	"(0x) FE-C0-FF-AB-40-84" received
+I	17:14:26.392	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-BC-FF-B4-40-7D
+A	17:14:26.392	"(0x) FE-BC-FF-B4-40-7D" received
+I	17:14:26.392	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-BE-FF-B9-40-82
+A	17:14:26.393	"(0x) FE-BE-FF-B9-40-82" received
+I	17:14:26.393	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-CA-FF-B2-40-7A
+A	17:14:26.393	"(0x) FE-CA-FF-B2-40-7A" received
+I	17:14:26.394	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-2C-FF-F1-40-73
+A	17:14:26.394	"(0x) FF-2C-FF-F1-40-73" received
+I	17:14:26.441	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-23-FF-EB-40-8A
+A	17:14:26.442	"(0x) FF-23-FF-EB-40-8A" received
+I	17:14:26.442	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-3B-FF-E8-40-8D
+A	17:14:26.442	"(0x) FF-3B-FF-E8-40-8D" received
+I	17:14:26.442	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-38-FF-EC-40-79
+A	17:14:26.442	"(0x) FF-38-FF-EC-40-79" received
+I	17:14:26.444	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-06-FF-D2-40-88
+A	17:14:26.444	"(0x) FF-06-FF-D2-40-88" received
+I	17:14:26.490	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-05-FF-CD-40-88
+A	17:14:26.490	"(0x) FF-05-FF-CD-40-88" received
+I	17:14:26.491	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FF-FF-BF-40-8C
+A	17:14:26.491	"(0x) FE-FF-FF-BF-40-8C" received
+I	17:14:26.491	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FB-FF-B2-40-7C
+A	17:14:26.491	"(0x) FE-FB-FF-B2-40-7C" received
+I	17:14:26.492	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-DD-FF-9F-40-59
+A	17:14:26.492	"(0x) FE-DD-FF-9F-40-59" received
+I	17:14:26.538	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E4-FF-B8-40-50
+A	17:14:26.538	"(0x) FE-E4-FF-B8-40-50" received
+I	17:14:26.539	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-EE-FF-BD-40-62
+A	17:14:26.539	"(0x) FE-EE-FF-BD-40-62" received
+I	17:14:26.540	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F2-FF-B9-40-68
+A	17:14:26.540	"(0x) FE-F2-FF-B9-40-68" received
+I	17:14:26.541	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-52-FF-D6-40-6A
+A	17:14:26.541	"(0x) FF-52-FF-D6-40-6A" received
+I	17:14:26.587	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-56-FF-E2-40-69
+A	17:14:26.587	"(0x) FF-56-FF-E2-40-69" received
+I	17:14:26.588	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-59-FF-E9-40-6B
+A	17:14:26.588	"(0x) FF-59-FF-E9-40-6B" received
+I	17:14:26.588	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-4E-FF-F9-40-6A
+A	17:14:26.588	"(0x) FF-4E-FF-F9-40-6A" received
+I	17:14:26.589	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-24-FF-F1-40-A2
+A	17:14:26.589	"(0x) FF-24-FF-F1-40-A2" received
+I	17:14:26.636	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-2E-FF-F1-40-AE
+A	17:14:26.636	"(0x) FF-2E-FF-F1-40-AE" received
+I	17:14:26.637	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-31-FF-E6-40-A4
+A	17:14:26.637	"(0x) FF-31-FF-E6-40-A4" received
+I	17:14:26.637	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-21-FF-D5-40-BB
+A	17:14:26.637	"(0x) FF-21-FF-D5-40-BB" received
+I	17:14:26.639	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-02-FF-96-40-60
+A	17:14:26.639	"(0x) FF-02-FF-96-40-60" received
+I	17:14:26.686	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FD-FF-93-40-68
+A	17:14:26.686	"(0x) FE-FD-FF-93-40-68" received
+I	17:14:26.686	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F9-FF-9A-40-6C
+A	17:14:26.686	"(0x) FE-F9-FF-9A-40-6C" received
+I	17:14:26.686	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-EF-FF-A5-40-6C
+A	17:14:26.686	"(0x) FE-EF-FF-A5-40-6C" received
+I	17:14:26.687	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-07-FF-E4-40-6D
+A	17:14:26.687	"(0x) FF-07-FF-E4-40-6D" received
+I	17:14:26.734	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-00-FF-DD-40-6F
+A	17:14:26.734	"(0x) FF-00-FF-DD-40-6F" received
+I	17:14:26.734	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F2-FF-C9-40-88
+A	17:14:26.734	"(0x) FE-F2-FF-C9-40-88" received
+I	17:14:26.734	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E3-FF-C2-40-7D
+A	17:14:26.734	"(0x) FE-E3-FF-C2-40-7D" received
+I	17:14:26.736	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-38-FF-B9-40-75
+A	17:14:26.736	"(0x) FF-38-FF-B9-40-75" received
+I	17:14:26.783	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-3A-FF-BE-40-48
+A	17:14:26.783	"(0x) FF-3A-FF-BE-40-48" received
+I	17:14:26.783	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-38-FF-B3-40-70
+A	17:14:26.783	"(0x) FF-38-FF-B3-40-70" received
+I	17:14:26.783	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-22-FF-B3-40-36
+A	17:14:26.783	"(0x) FF-22-FF-B3-40-36" received
+I	17:14:26.785	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-DA-FF-EA-40-5F
+A	17:14:26.785	"(0x) FE-DA-FF-EA-40-5F" received
+I	17:14:26.831	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E4-FF-F7-40-91
+A	17:14:26.831	"(0x) FE-E4-FF-F7-40-91" received
+I	17:14:26.832	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F1-FF-E6-40-9E
+A	17:14:26.832	"(0x) FE-F1-FF-E6-40-9E" received
+I	17:14:26.832	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FB-FF-C7-40-8E
+A	17:14:26.832	"(0x) FE-FB-FF-C7-40-8E" received
+I	17:14:26.833	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-14-FF-B2-40-67
+A	17:14:26.833	"(0x) FF-14-FF-B2-40-67" received
+I	17:14:26.880	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-12-FF-B9-40-4B
+A	17:14:26.880	"(0x) FF-12-FF-B9-40-4B" received
+I	17:14:26.881	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-20-FF-C3-40-76
+A	17:14:26.881	"(0x) FF-20-FF-C3-40-76" received
+I	17:14:26.881	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-0F-FF-C5-40-9A
+A	17:14:26.881	"(0x) FF-0F-FF-C5-40-9A" received
+I	17:14:26.882	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-73-FF-F1-40-5D
+A	17:14:26.882	"(0x) FF-73-FF-F1-40-5D" received
+I	17:14:26.929	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-5E-FF-E6-40-62
+A	17:14:26.929	"(0x) FF-5E-FF-E6-40-62" received
+I	17:14:26.929	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-5D-FF-D9-40-64
+A	17:14:26.929	"(0x) FF-5D-FF-D9-40-64" received
+I	17:14:26.929	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-3C-FF-D5-40-4F
+A	17:14:26.929	"(0x) FF-3C-FF-D5-40-4F" received
+I	17:14:26.931	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-F7-03-1D-40-7B
+A	17:14:26.932	"(0x) FD-F7-03-1D-40-7B" received
+I	17:14:26.977	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-F1-02-FD-40-84
+A	17:14:26.977	"(0x) FD-F1-02-FD-40-84" received
+I	17:14:26.978	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-48-01-14-40-AE
+A	17:14:26.978	"(0x) FE-48-01-14-40-AE" received
+I	17:14:26.978	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-BE-00-14-40-7C
+A	17:14:26.978	"(0x) FE-BE-00-14-40-7C" received
+I	17:14:26.979	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F9-FF-7C-40-66
+A	17:14:26.979	"(0x) FE-F9-FF-7C-40-66" received
+I	17:14:27.025	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-00-FF-8A-40-6D
+A	17:14:27.025	"(0x) FF-00-FF-8A-40-6D" received
+I	17:14:27.026	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-0D-FF-B1-40-4D
+A	17:14:27.026	"(0x) FF-0D-FF-B1-40-4D" received
+I	17:14:27.026	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-22-FF-DB-40-49
+A	17:14:27.026	"(0x) FF-22-FF-DB-40-49" received
+I	17:14:27.028	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F6-FF-D8-40-6B
+A	17:14:27.028	"(0x) FE-F6-FF-D8-40-6B" received
+I	17:14:27.075	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F2-FF-D5-40-67
+A	17:14:27.075	"(0x) FE-F2-FF-D5-40-67" received
+I	17:14:27.075	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F3-FF-C7-40-5F
+A	17:14:27.075	"(0x) FE-F3-FF-C7-40-5F" received
+I	17:14:27.076	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-EA-FF-BC-40-57
+A	17:14:27.076	"(0x) FE-EA-FF-BC-40-57" received
+I	17:14:27.077	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-2D-FF-BD-40-50
+A	17:14:27.077	"(0x) FF-2D-FF-BD-40-50" received
+I	17:14:27.123	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-39-FF-B0-40-49
+A	17:14:27.123	"(0x) FF-39-FF-B0-40-49" received
+I	17:14:27.124	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-38-FF-AB-40-49
+A	17:14:27.124	"(0x) FF-38-FF-AB-40-49" received
+I	17:14:27.124	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-3D-FF-AD-40-4E
+A	17:14:27.124	"(0x) FF-3D-FF-AD-40-4E" received
+I	17:14:27.126	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FD-FF-C5-40-82
+A	17:14:27.126	"(0x) FE-FD-FF-C5-40-82" received
+I	17:14:27.172	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F9-FF-BE-40-82
+A	17:14:27.172	"(0x) FE-F9-FF-BE-40-82" received
+I	17:14:27.173	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FA-FF-C1-40-84
+A	17:14:27.173	"(0x) FE-FA-FF-C1-40-84" received
+I	17:14:27.173	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FC-FF-B0-40-7F
+A	17:14:27.173	"(0x) FE-FC-FF-B0-40-7F" received
+I	17:14:27.174	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-16-FF-B4-40-91
+A	17:14:27.174	"(0x) FF-16-FF-B4-40-91" received
+I	17:14:27.222	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-19-FF-BF-40-B1
+A	17:14:27.222	"(0x) FF-19-FF-BF-40-B1" received
+I	17:14:27.222	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-22-FF-CE-40-BA
+A	17:14:27.222	"(0x) FF-22-FF-CE-40-BA" received
+I	17:14:27.223	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-31-FF-E1-40-8F
+A	17:14:27.223	"(0x) FF-31-FF-E1-40-8F" received
+I	17:14:27.224	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-45-FF-A2-40-6C
+A	17:14:27.224	"(0x) FF-45-FF-A2-40-6C" received
+I	17:14:27.272	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-2C-FF-B1-40-64
+A	17:14:27.272	"(0x) FF-2C-FF-B1-40-64" received
+I	17:14:27.272	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-22-FF-B0-40-72
+A	17:14:27.272	"(0x) FF-22-FF-B0-40-72" received
+I	17:14:27.273	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-0D-FF-A3-40-83
+A	17:14:27.273	"(0x) FF-0D-FF-A3-40-83" received
+I	17:14:27.273	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-25-FF-E5-40-78
+A	17:14:27.273	"(0x) FF-25-FF-E5-40-78" received
+I	17:14:27.318	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-25-FF-E1-40-77
+A	17:14:27.318	"(0x) FF-25-FF-E1-40-77" received
+I	17:14:27.321	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-19-FF-D8-40-8A
+A	17:14:27.321	"(0x) FF-19-FF-D8-40-8A" received
+I	17:14:27.321	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-07-FF-E0-40-8A
+A	17:14:27.321	"(0x) FF-07-FF-E0-40-8A" received
+I	17:14:27.321	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) AA-AA-AA-AA-AA-AA
+A	17:14:27.321	"(0x) AA-AA-AA-AA-AA-AA" received
+I	17:14:27.367	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) AA-AA-AA-AA-AA-AA
+A	17:14:27.367	"(0x) AA-AA-AA-AA-AA-AA" received
+I	17:14:27.368	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) AA-AA-AA-AA-AA-AA
+A	17:14:27.368	"(0x) AA-AA-AA-AA-AA-AA" received
+I	17:14:30.243	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E6-FF-52-40-04
+A	17:14:30.243	"(0x) FE-E6-FF-52-40-04" received
+I	17:14:30.244	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-DE-FF-56-40-39
+A	17:14:30.244	"(0x) FE-DE-FF-56-40-39" received
+I	17:14:30.246	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E2-FF-72-40-79
+A	17:14:30.246	"(0x) FE-E2-FF-72-40-79" received
+I	17:14:30.246	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-ED-FF-AB-40-9E
+A	17:14:30.246	"(0x) FE-ED-FF-AB-40-9E" received
+I	17:14:30.294	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FA-FF-E9-40-8C
+A	17:14:30.294	"(0x) FE-FA-FF-E9-40-8C" received
+I	17:14:30.295	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-11-FF-FF-40-79
+A	17:14:30.295	"(0x) FF-11-FF-FF-40-79" received
+I	17:14:30.295	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-1A-00-19-40-51
+A	17:14:30.295	"(0x) FF-1A-00-19-40-51" received
+I	17:14:30.296	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-05-00-0F-40-35
+A	17:14:30.296	"(0x) FF-05-00-0F-40-35" received
+I	17:14:30.341	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-05-FF-FE-40-25
+A	17:14:30.341	"(0x) FF-05-FF-FE-40-25" received
+I	17:14:30.341	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F4-FF-E7-40-25
+A	17:14:30.341	"(0x) FE-F4-FF-E7-40-25" received
+I	17:14:30.342	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E6-FF-C3-40-33
+A	17:14:30.342	"(0x) FE-E6-FF-C3-40-33" received
+I	17:14:30.343	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-D9-FF-B1-40-3C
+A	17:14:30.343	"(0x) FE-D9-FF-B1-40-3C" received
+I	17:14:30.391	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-05-FF-BE-40-16
+A	17:14:30.391	"(0x) FE-05-FF-BE-40-16" received
+I	17:14:30.392	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-EF-FF-BC-40-38
+A	17:14:30.392	"(0x) FE-EF-FF-BC-40-38" received
+I	17:14:30.393	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E9-FF-C6-40-7A
+A	17:14:30.393	"(0x) FE-E9-FF-C6-40-7A" received
+I	17:14:30.393	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F0-00-3D-41-2C
+A	17:14:30.393	"(0x) FE-F0-00-3D-41-2C" received
+I	17:14:30.439	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F9-00-2D-41-44
+A	17:14:30.439	"(0x) FE-F9-00-2D-41-44" received
+I	17:14:30.439	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F0-00-0F-41-2E
+A	17:14:30.439	"(0x) FE-F0-00-0F-41-2E" received
+I	17:14:30.439	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FE-00-03-41-02
+A	17:14:30.439	"(0x) FE-FE-00-03-41-02" received
+I	17:14:30.441	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-81-00-2C-40-F7
+A	17:14:30.441	"(0x) FF-81-00-2C-40-F7" received
+I	17:14:30.487	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-79-00-31-40-F3
+A	17:14:30.487	"(0x) FF-79-00-31-40-F3" received
+I	17:14:30.487	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-72-00-30-40-D9
+A	17:14:30.487	"(0x) FF-72-00-30-40-D9" received
+I	17:14:30.488	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-73-00-23-40-D9
+A	17:14:30.488	"(0x) FF-73-00-23-40-D9" received
+I	17:14:30.488	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F3-FF-4C-40-5C
+A	17:14:30.488	"(0x) FE-F3-FF-4C-40-5C" received
+I	17:14:30.536	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E3-FF-53-40-5D
+A	17:14:30.536	"(0x) FE-E3-FF-53-40-5D" received
+I	17:14:30.536	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E0-FF-47-40-2D
+A	17:14:30.536	"(0x) FE-E0-FF-47-40-2D" received
+I	17:14:30.536	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-DF-FF-4B-40-13
+A	17:14:30.536	"(0x) FE-DF-FF-4B-40-13" received
+I	17:14:30.537	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-89-FF-B9-40-32
+A	17:14:30.537	"(0x) FE-89-FF-B9-40-32" received
+I	17:14:30.585	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-95-FF-BF-40-22
+A	17:14:30.585	"(0x) FE-95-FF-BF-40-22" received
+I	17:14:30.585	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-B1-FF-BB-40-1B
+A	17:14:30.585	"(0x) FE-B1-FF-BB-40-1B" received
+I	17:14:30.585	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-B6-FF-C1-40-21
+A	17:14:30.585	"(0x) FE-B6-FF-C1-40-21" received
+I	17:14:30.586	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-E8-FF-E4-40-52
+A	17:14:30.586	"(0x) FF-E8-FF-E4-40-52" received
+I	17:14:30.635	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-D9-FF-E4-40-67
+A	17:14:30.635	"(0x) FF-D9-FF-E4-40-67" received
+I	17:14:30.636	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-CE-FF-E1-40-87
+A	17:14:30.636	"(0x) FF-CE-FF-E1-40-87" received
+I	17:14:30.637	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-B2-FF-CD-40-84
+A	17:14:30.637	"(0x) FF-B2-FF-CD-40-84" received
+I	17:14:30.638	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-56-00-04-40-64
+A	17:14:30.638	"(0x) FE-56-00-04-40-64" received
+I	17:14:30.684	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-50-00-10-40-6C
+A	17:14:30.684	"(0x) FE-50-00-10-40-6C" received
+I	17:14:30.685	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4A-00-0A-40-6D
+A	17:14:30.685	"(0x) FE-4A-00-0A-40-6D" received
+I	17:14:30.687	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4F-00-0B-40-6F
+A	17:14:30.687	"(0x) FE-4F-00-0B-40-6F" received
+I	17:14:30.690	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-3F-FF-BD-40-4C
+A	17:14:30.690	"(0x) FF-3F-FF-BD-40-4C" received
+I	17:14:30.733	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-44-FF-C0-40-5D
+A	17:14:30.733	"(0x) FF-44-FF-C0-40-5D" received
+I	17:14:30.733	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-4A-FF-C1-40-69
+A	17:14:30.734	"(0x) FF-4A-FF-C1-40-69" received
+I	17:14:30.734	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-4F-FF-CB-40-66
+A	17:14:30.734	"(0x) FF-4F-FF-CB-40-66" received
+I	17:14:30.734	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-9A-FF-E2-40-3C
+A	17:14:30.734	"(0x) FF-9A-FF-E2-40-3C" received
+I	17:14:30.780	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-8A-FF-E3-40-4D
+A	17:14:30.780	"(0x) FF-8A-FF-E3-40-4D" received
+I	17:14:30.781	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-87-FF-E5-40-4F
+A	17:14:30.781	"(0x) FF-87-FF-E5-40-4F" received
+I	17:14:30.781	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-83-FF-E8-40-4A
+A	17:14:30.781	"(0x) FF-83-FF-E8-40-4A" received
+I	17:14:30.783	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-6E-FF-E1-40-41
+A	17:14:30.783	"(0x) FE-6E-FF-E1-40-41" received
+I	17:14:30.830	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-63-FF-EF-40-46
+A	17:14:30.831	"(0x) FE-63-FF-EF-40-46" received
+I	17:14:30.832	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-60-FF-F4-40-53
+A	17:14:30.832	"(0x) FE-60-FF-F4-40-53" received
+I	17:14:30.832	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-60-FF-E4-40-51
+A	17:14:30.832	"(0x) FE-60-FF-E4-40-51" received
+I	17:14:30.833	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-11-00-09-40-B4
+A	17:14:30.833	"(0x) FF-11-00-09-40-B4" received
+I	17:14:30.879	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-25-00-21-40-7A
+A	17:14:30.879	"(0x) FF-25-00-21-40-7A" received
+I	17:14:30.880	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-31-00-18-40-91
+A	17:14:30.880	"(0x) FF-31-00-18-40-91" received
+I	17:14:30.882	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-3B-00-1A-40-C0
+A	17:14:30.882	"(0x) FF-3B-00-1A-40-C0" received
+I	17:14:30.882	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-A3-FF-B9-40-77
+A	17:14:30.882	"(0x) FF-A3-FF-B9-40-77" received
+I	17:14:30.927	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-96-FF-BC-40-92
+A	17:14:30.927	"(0x) FF-96-FF-BC-40-92" received
+I	17:14:30.927	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-9C-FF-CF-40-8F
+A	17:14:30.928	"(0x) FF-9C-FF-CF-40-8F" received
+I	17:14:30.928	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-95-FF-DD-40-7D
+A	17:14:30.928	"(0x) FF-95-FF-DD-40-7D" received
+I	17:14:30.928	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-81-FF-DD-40-38
+A	17:14:30.928	"(0x) FE-81-FF-DD-40-38" received
+I	17:14:30.976	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-8F-FF-DA-40-43
+A	17:14:30.976	"(0x) FE-8F-FF-DA-40-43" received
+I	17:14:30.977	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-8C-FF-E7-40-53
+A	17:14:30.977	"(0x) FE-8C-FF-E7-40-53" received
+I	17:14:30.977	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-82-00-0B-40-57
+A	17:14:30.977	"(0x) FE-82-00-0B-40-57" received
+I	17:14:30.978	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-86-FF-D3-40-85
+A	17:14:30.978	"(0x) FF-86-FF-D3-40-85" received
+I	17:14:31.025	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-8E-FF-C6-40-87
+A	17:14:31.025	"(0x) FF-8E-FF-C6-40-87" received
+I	17:14:31.025	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-85-FF-C2-40-88
+A	17:14:31.026	"(0x) FF-85-FF-C2-40-88" received
+I	17:14:31.026	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-82-FF-C2-40-88
+A	17:14:31.026	"(0x) FF-82-FF-C2-40-88" received
+I	17:14:31.026	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-67-00-0A-40-8F
+A	17:14:31.026	"(0x) FF-67-00-0A-40-8F" received
+I	17:14:31.075	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-53-00-04-40-8A
+A	17:14:31.075	"(0x) FF-53-00-04-40-8A" received
+I	17:14:31.076	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-3B-00-04-40-87
+A	17:14:31.076	"(0x) FF-3B-00-04-40-87" received
+I	17:14:31.080	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-31-FF-FD-40-8C
+A	17:14:31.080	"(0x) FF-31-FF-FD-40-8C" received
+I	17:14:31.081	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-D7-FF-CE-40-71
+A	17:14:31.082	"(0x) FE-D7-FF-CE-40-71" received
+I	17:14:31.121	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E6-FF-C7-40-6C
+A	17:14:31.121	"(0x) FE-E6-FF-C7-40-6C" received
+I	17:14:31.123	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-ED-FF-C7-40-7C
+A	17:14:31.123	"(0x) FE-ED-FF-C7-40-7C" received
+I	17:14:31.123	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F9-FF-C7-40-6D
+A	17:14:31.123	"(0x) FE-F9-FF-C7-40-6D" received
+I	17:14:31.123	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-6C-FF-F9-40-85
+A	17:14:31.123	"(0x) FF-6C-FF-F9-40-85" received
+I	17:14:31.170	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-85-FF-FA-40-82
+A	17:14:31.170	"(0x) FF-85-FF-FA-40-82" received
+I	17:14:31.172	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-80-FF-FB-40-8E
+A	17:14:31.172	"(0x) FF-80-FF-FB-40-8E" received
+I	17:14:31.172	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-85-FF-F9-40-A1
+A	17:14:31.172	"(0x) FF-85-FF-F9-40-A1" received
+I	17:14:31.172	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-D3-FF-E1-40-7B
+A	17:14:31.172	"(0x) FE-D3-FF-E1-40-7B" received
+I	17:14:31.220	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-DD-FF-EB-40-6F
+A	17:14:31.220	"(0x) FE-DD-FF-EB-40-6F" received
+I	17:14:31.221	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-F7-FF-D9-40-6E
+A	17:14:31.221	"(0x) FE-F7-FF-D9-40-6E" received
+I	17:14:31.221	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-03-FF-C5-40-81
+A	17:14:31.221	"(0x) FF-03-FF-C5-40-81" received
+I	17:14:31.222	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-05-FF-F7-40-52
+A	17:14:31.222	"(0x) FF-05-FF-F7-40-52" received
+I	17:14:31.268	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FE-FF-F4-40-60
+A	17:14:31.268	"(0x) FE-FE-FF-F4-40-60" received
+I	17:14:31.269	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FB-FF-F0-40-65
+A	17:14:31.269	"(0x) FE-FB-FF-F0-40-65" received
+I	17:14:31.270	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FD-FF-EE-40-87
+A	17:14:31.270	"(0x) FE-FD-FF-EE-40-87" received
+I	17:14:31.270	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-53-FF-F1-41-8D
+A	17:14:31.270	"(0x) FF-53-FF-F1-41-8D" received
+I	17:14:31.315	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-67-00-03-41-9A
+A	17:14:31.315	"(0x) FF-67-00-03-41-9A" received
+I	17:14:31.316	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-8B-00-0B-41-A5
+A	17:14:31.316	"(0x) FF-8B-00-0B-41-A5" received
+I	17:14:31.317	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-91-00-1D-41-86
+A	17:14:31.317	"(0x) FF-91-00-1D-41-86" received
+I	17:14:31.318	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-6A-00-99-40-C1
+A	17:14:31.318	"(0x) FF-6A-00-99-40-C1" received
+I	17:14:31.365	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-6D-00-83-40-C4
+A	17:14:31.365	"(0x) FF-6D-00-83-40-C4" received
+I	17:14:31.365	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-5A-00-7B-40-CB
+A	17:14:31.365	"(0x) FF-5A-00-7B-40-CB" received
+I	17:14:31.366	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-60-00-70-40-CC
+A	17:14:31.366	"(0x) FF-60-00-70-40-CC" received
+I	17:14:31.367	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-BC-00-66-40-AB
+A	17:14:31.367	"(0x) FE-BC-00-66-40-AB" received
+I	17:14:31.413	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-C9-00-7B-40-AE
+A	17:14:31.413	"(0x) FE-C9-00-7B-40-AE" received
+I	17:14:31.414	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-BD-00-92-40-C0
+A	17:14:31.414	"(0x) FE-BD-00-92-40-C0" received
+I	17:14:31.463	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-C9-00-9A-40-C0
+A	17:14:31.464	"(0x) FE-C9-00-9A-40-C0" received
+I	17:14:31.465	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-BE-01-C4-41-AC
+A	17:14:31.465	"(0x) FF-BE-01-C4-41-AC" received
+I	17:14:31.465	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-B4-01-E0-41-B1
+A	17:14:31.465	"(0x) FF-B4-01-E0-41-B1" received
+I	17:14:31.466	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-A2-01-FB-41-A5
+A	17:14:31.466	"(0x) FF-A2-01-FB-41-A5" received
+I	17:14:31.512	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-8D-02-15-41-C0
+A	17:14:31.512	"(0x) FF-8D-02-15-41-C0" received
+I	17:14:31.513	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-08-03-A5-3F-FF
+A	17:14:31.513	"(0x) FF-08-03-A5-3F-FF" received
+I	17:14:31.514	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-EC-03-8B-40-04
+A	17:14:31.514	"(0x) FE-EC-03-8B-40-04" received
+I	17:14:31.514	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FD-03-7E-40-04
+A	17:14:31.514	"(0x) FE-FD-03-7E-40-04" received
+I	17:14:31.559	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-3F-03-80-3F-FB
+A	17:14:31.559	"(0x) FF-3F-03-80-3F-FB" received
+I	17:14:31.560	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-EA-04-5F-40-A9
+A	17:14:31.560	"(0x) FE-EA-04-5F-40-A9" received
+I	17:14:31.560	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-DE-04-7C-40-C3
+A	17:14:31.560	"(0x) FE-DE-04-7C-40-C3" received
+I	17:14:31.562	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-D3-04-90-40-D0
+A	17:14:31.562	"(0x) FE-D3-04-90-40-D0" received
+I	17:14:31.610	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-23-06-D7-41-0D
+A	17:14:31.610	"(0x) FF-23-06-D7-41-0D" received
+I	17:14:31.611	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-1E-06-E7-40-FE
+A	17:14:31.611	"(0x) FF-1E-06-E7-40-FE" received
+I	17:14:31.612	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-17-06-F8-40-E1
+A	17:14:31.612	"(0x) FF-17-06-F8-40-E1" received
+I	17:14:31.612	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-38-09-E6-3E-5B
+A	17:14:31.612	"(0x) FF-38-09-E6-3E-5B" received
+I	17:14:31.659	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-66-09-F1-3E-6C
+A	17:14:31.659	"(0x) FF-66-09-F1-3E-6C" received
+I	17:14:31.659	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-64-0A-02-3E-80
+A	17:14:31.659	"(0x) FF-64-0A-02-3E-80" received
+I	17:14:31.660	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-6C-0A-05-3E-95
+A	17:14:31.660	"(0x) FF-6C-0A-05-3E-95" received
+I	17:14:31.660	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-1C-0A-C3-40-2B
+A	17:14:31.660	"(0x) FF-1C-0A-C3-40-2B" received
+I	17:14:31.706	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-03-0A-CC-40-45
+A	17:14:31.706	"(0x) FF-03-0A-CC-40-45" received
+I	17:14:31.707	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-ED-0A-E7-40-6E
+A	17:14:31.707	"(0x) FE-ED-0A-E7-40-6E" received
+I	17:14:31.708	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-DB-0A-EF-40-88
+A	17:14:31.708	"(0x) FE-DB-0A-EF-40-88" received
+I	17:14:31.709	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-83-0C-92-3E-CB
+A	17:14:31.709	"(0x) FF-83-0C-92-3E-CB" received
+I	17:14:31.755	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-72-0C-9A-3E-BD
+A	17:14:31.755	"(0x) FF-72-0C-9A-3E-BD" received
+I	17:14:31.756	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-68-0C-AF-3F-24
+A	17:14:31.756	"(0x) FF-68-0C-AF-3F-24" received
+I	17:14:31.756	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-74-0C-B1-3F-2E
+A	17:14:31.756	"(0x) FF-74-0C-B1-3F-2E" received
+I	17:14:31.756	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-02-0F-83-3E-CD
+A	17:14:31.756	"(0x) FF-02-0F-83-3E-CD" received
+I	17:14:31.805	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-23-0F-91-3E-B4
+A	17:14:31.805	"(0x) FF-23-0F-91-3E-B4" received
+I	17:14:31.805	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-27-0F-A3-3E-D7
+A	17:14:31.805	"(0x) FF-27-0F-A3-3E-D7" received
+I	17:14:31.806	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-2D-0F-A2-3F-05
+A	17:14:31.806	"(0x) FF-2D-0F-A2-3F-05" received
+I	17:14:31.806	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-0A-12-2E-3C-C3
+A	17:14:31.806	"(0x) FF-0A-12-2E-3C-C3" received
+I	17:14:31.853	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FB-12-89-3C-8E
+A	17:14:31.853	"(0x) FE-FB-12-89-3C-8E" received
+I	17:14:31.854	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-B2-12-92-3C-8E
+A	17:14:31.854	"(0x) FE-B2-12-92-3C-8E" received
+I	17:14:31.855	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-69-12-75-3C-8B
+A	17:14:31.856	"(0x) FE-69-12-75-3C-8B" received
+I	17:14:31.856	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-AE-14-7C-3D-98
+A	17:14:31.856	"(0x) FF-AE-14-7C-3D-98" received
+I	17:14:31.901	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-3B-14-54-3D-98
+A	17:14:31.901	"(0x) FF-3B-14-54-3D-98" received
+I	17:14:31.902	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-A6-13-FE-3D-AE
+A	17:14:31.902	"(0x) FE-A6-13-FE-3D-AE" received
+I	17:14:31.902	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-46-13-C7-3D-C4
+A	17:14:31.902	"(0x) FD-46-13-C7-3D-C4" received
+I	17:14:31.904	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) 00-70-14-AD-3C-2C
+A	17:14:31.904	"(0x) 00-70-14-AD-3C-2C" received
+I	17:14:31.951	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) 00-0B-14-AE-39-57
+A	17:14:31.951	"(0x) 00-0B-14-AE-39-57" received
+I	17:14:31.952	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-8D-15-FE-35-FD
+A	17:14:31.952	"(0x) FE-8D-15-FE-35-FD" received
+I	17:14:31.953	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FC-6F-16-E9-35-49
+A	17:14:31.953	"(0x) FC-6F-16-E9-35-49" received
+I	17:14:31.953	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-75-14-EA-3D-62
+A	17:14:31.953	"(0x) FE-75-14-EA-3D-62" received
+I	17:14:32.000	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-9B-15-39-3D-35
+A	17:14:32.000	"(0x) FE-9B-15-39-3D-35" received
+I	17:14:32.001	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-C0-15-79-3D-13
+A	17:14:32.001	"(0x) FE-C0-15-79-3D-13" received
+I	17:14:32.001	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E2-15-93-3C-CD
+A	17:14:32.001	"(0x) FE-E2-15-93-3C-CD" received
+I	17:14:32.002	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-C5-16-FB-3D-F0
+A	17:14:32.002	"(0x) FE-C5-16-FB-3D-F0" received
+I	17:14:32.050	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-5C-17-60-3D-CC
+A	17:14:32.050	"(0x) FF-5C-17-60-3D-CC" received
+I	17:14:32.051	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-89-17-A4-3D-AC
+A	17:14:32.051	"(0x) FF-89-17-A4-3D-AC" received
+I	17:14:32.052	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-A6-17-B9-3D-90
+A	17:14:32.052	"(0x) FF-A6-17-B9-3D-90" received
+I	17:14:32.053	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-05-1A-CC-38-EA
+A	17:14:32.053	"(0x) FF-05-1A-CC-38-EA" received
+I	17:14:32.097	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-40-1B-2A-39-08
+A	17:14:32.097	"(0x) FF-40-1B-2A-39-08" received
+I	17:14:32.098	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-5B-1B-4F-39-06
+A	17:14:32.098	"(0x) FF-5B-1B-4F-39-06" received
+I	17:14:32.098	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-62-1B-92-39-1B
+A	17:14:32.098	"(0x) FF-62-1B-92-39-1B" received
+I	17:14:32.099	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-AF-19-CC-3D-D5
+A	17:14:32.099	"(0x) FE-AF-19-CC-3D-D5" received
+I	17:14:32.145	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-C9-18-F7-3E-09
+A	17:14:32.145	"(0x) FE-C9-18-F7-3E-09" received
+I	17:14:32.145	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-DE-17-23-3E-4C
+A	17:14:32.145	"(0x) FE-DE-17-23-3E-4C" received
+I	17:14:32.146	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-10-16-74-3E-51
+A	17:14:32.146	"(0x) FF-10-16-74-3E-51" received
+I	17:14:32.146	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-F9-1E-3E-39-2C
+A	17:14:32.146	"(0x) FD-F9-1E-3E-39-2C" received
+I	17:14:32.196	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-8C-1E-26-39-0F
+A	17:14:32.196	"(0x) FD-8C-1E-26-39-0F" received
+I	17:14:32.197	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-4B-1E-11-38-EF
+A	17:14:32.197	"(0x) FD-4B-1E-11-38-EF" received
+I	17:14:32.198	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-49-1E-48-38-D9
+A	17:14:32.198	"(0x) FD-49-1E-48-38-D9" received
+I	17:14:32.199	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-7D-25-F3-32-65
+A	17:14:32.199	"(0x) FE-7D-25-F3-32-65" received
+I	17:14:32.245	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-86-26-4F-32-03
+A	17:14:32.245	"(0x) FE-86-26-4F-32-03" received
+I	17:14:32.246	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-A9-27-13-31-B8
+A	17:14:32.246	"(0x) FE-A9-27-13-31-B8" received
+I	17:14:32.246	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-C9-27-49-31-79
+A	17:14:32.246	"(0x) FE-C9-27-49-31-79" received
+I	17:14:32.246	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-05-25-75-34-73
+A	17:14:32.246	"(0x) FF-05-25-75-34-73" received
+I	17:14:32.292	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-2E-25-D8-34-1C
+A	17:14:32.292	"(0x) FF-2E-25-D8-34-1C" received
+I	17:14:32.293	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-3B-26-38-33-CD
+A	17:14:32.293	"(0x) FF-3B-26-38-33-CD" received
+I	17:14:32.294	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-3D-26-90-33-9B
+A	17:14:32.294	"(0x) FF-3D-26-90-33-9B" received
+I	17:14:32.295	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-8A-2A-4A-2E-B2
+A	17:14:32.295	"(0x) FE-8A-2A-4A-2E-B2" received
+I	17:14:32.340	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-92-2A-EC-2E-10
+A	17:14:32.340	"(0x) FE-92-2A-EC-2E-10" received
+I	17:14:32.340	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-85-2B-2A-2D-90
+A	17:14:32.340	"(0x) FE-85-2B-2A-2D-90" received
+I	17:14:32.341	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-7C-2B-4F-2D-2D
+A	17:14:32.341	"(0x) FE-7C-2B-4F-2D-2D" received
+I	17:14:32.342	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-6D-2E-A4-28-DD
+A	17:14:32.342	"(0x) FE-6D-2E-A4-28-DD" received
+I	17:14:32.389	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-9C-2F-09-28-A9
+A	17:14:32.389	"(0x) FE-9C-2F-09-28-A9" received
+I	17:14:32.389	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-8A-2F-9A-28-A9
+A	17:14:32.389	"(0x) FE-8A-2F-9A-28-A9" received
+I	17:14:32.390	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-62-2F-C1-28-BF
+A	17:14:32.390	"(0x) FE-62-2F-C1-28-BF" received
+I	17:14:32.390	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-A4-32-4A-26-28
+A	17:14:32.390	"(0x) FE-A4-32-4A-26-28" received
+I	17:14:32.438	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-6E-32-18-26-69
+A	17:14:32.438	"(0x) FE-6E-32-18-26-69" received
+I	17:14:32.439	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-34-31-F7-26-9C
+A	17:14:32.439	"(0x) FE-34-31-F7-26-9C" received
+I	17:14:32.439	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-10-31-C1-26-AA
+A	17:14:32.439	"(0x) FE-10-31-C1-26-AA" received
+I	17:14:32.440	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-08-34-FC-22-1B
+A	17:14:32.440	"(0x) FF-08-34-FC-22-1B" received
+I	17:14:32.487	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-FF-35-2E-21-B2
+A	17:14:32.487	"(0x) FE-FF-35-2E-21-B2" received
+I	17:14:32.487	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-04-35-B6-21-7E
+A	17:14:32.487	"(0x) FE-04-35-B6-21-7E" received
+I	17:14:32.489	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-FF-35-FC-21-40
+A	17:14:32.489	"(0x) FF-FF-35-FC-21-40" received
+I	17:14:32.490	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-D9-38-D4-1B-26
+A	17:14:32.490	"(0x) FE-D9-38-D4-1B-26" received
+I	17:14:32.537	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-D7-38-CD-1B-21
+A	17:14:32.537	"(0x) FE-D7-38-CD-1B-21" received
+I	17:14:32.537	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-D1-38-D8-1B-0A
+A	17:14:32.537	"(0x) FE-D1-38-D8-1B-0A" received
+I	17:14:32.537	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-B5-38-E9-1A-DA
+A	17:14:32.537	"(0x) FE-B5-38-E9-1A-DA" received
+I	17:14:32.537	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-7C-3B-93-16-80
+A	17:14:32.537	"(0x) FE-7C-3B-93-16-80" received
+I	17:14:32.584	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-9B-3B-9E-16-63
+A	17:14:32.584	"(0x) FE-9B-3B-9E-16-63" received
+I	17:14:32.584	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-D9-3B-BB-16-2B
+A	17:14:32.584	"(0x) FE-D9-3B-BB-16-2B" received
+I	17:14:32.584	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-EC-3B-CD-15-E6
+A	17:14:32.584	"(0x) FE-EC-3B-CD-15-E6" received
+I	17:14:32.586	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-52-3D-57-11-4D
+A	17:14:32.586	"(0x) FF-52-3D-57-11-4D" received
+I	17:14:32.633	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-3C-3D-30-11-45
+A	17:14:32.633	"(0x) FF-3C-3D-30-11-45" received
+I	17:14:32.633	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-0D-3C-E9-11-17
+A	17:14:32.633	"(0x) FF-0D-3C-E9-11-17" received
+I	17:14:32.633	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-E8-3C-BB-10-17
+A	17:14:32.633	"(0x) FE-E8-3C-BB-10-17" received
+I	17:14:32.635	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) 00-04-3E-24-0E-05
+A	17:14:32.635	"(0x) 00-04-3E-24-0E-05" received
+I	17:14:32.682	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) 00-06-3E-2E-0D-4A
+A	17:14:32.682	"(0x) 00-06-3E-2E-0D-4A" received
+I	17:14:32.683	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-D2-3E-24-0D-1F
+A	17:14:32.683	"(0x) FF-D2-3E-24-0D-1F" received
+I	17:14:32.683	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FF-6F-3D-EF-0D-5F
+A	17:14:32.683	"(0x) FF-6F-3D-EF-0D-5F" received
+I	17:14:32.684	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-CA-3E-28-0C-F0
+A	17:14:32.684	"(0x) FE-CA-3E-28-0C-F0" received
+I	17:14:32.730	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-A4-3E-1A-0C-6E
+A	17:14:32.730	"(0x) FE-A4-3E-1A-0C-6E" received
+I	17:14:32.732	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-5C-3E-20-0C-A5
+A	17:14:32.732	"(0x) FE-5C-3E-20-0C-A5" received
+I	17:14:32.732	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-B9-3E-27-0D-0B
+A	17:14:32.732	"(0x) FD-B9-3E-27-0D-0B" received
+I	17:14:32.733	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-65-3E-1F-0E-B7
+A	17:14:32.733	"(0x) FE-65-3E-1F-0E-B7" received
+I	17:14:32.780	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-5E-3E-1B-0E-8F
+A	17:14:32.780	"(0x) FE-5E-3E-1B-0E-8F" received
+I	17:14:32.781	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-54-3E-1D-0E-64
+A	17:14:32.781	"(0x) FE-54-3E-1D-0E-64" received
+I	17:14:32.782	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-5F-3E-19-0E-37
+A	17:14:32.782	"(0x) FE-5F-3E-19-0E-37" received
+I	17:14:32.782	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-35-3E-8B-0B-4D
+A	17:14:32.782	"(0x) FE-35-3E-8B-0B-4D" received
+I	17:14:32.829	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-33-3E-8F-0B-55
+A	17:14:32.829	"(0x) FE-33-3E-8F-0B-55" received
+I	17:14:32.830	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-36-3E-8E-0B-50
+A	17:14:32.830	"(0x) FE-36-3E-8E-0B-50" received
+I	17:14:32.832	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-34-3E-8D-0B-4E
+A	17:14:32.832	"(0x) FE-34-3E-8D-0B-4E" received
+I	17:14:32.832	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-37-3E-D1-0A-95
+A	17:14:32.832	"(0x) FE-37-3E-D1-0A-95" received
+I	17:14:32.878	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3C-3E-CE-0A-71
+A	17:14:32.878	"(0x) FE-3C-3E-CE-0A-71" received
+I	17:14:32.878	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-38-3E-E5-0A-5D
+A	17:14:32.879	"(0x) FE-38-3E-E5-0A-5D" received
+I	17:14:32.879	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3D-3E-EE-0A-3C
+A	17:14:32.879	"(0x) FE-3D-3E-EE-0A-3C" received
+I	17:14:32.879	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-5F-3E-E5-0A-A4
+A	17:14:32.879	"(0x) FE-5F-3E-E5-0A-A4" received
+I	17:14:32.925	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-64-3E-E5-0A-A9
+A	17:14:32.925	"(0x) FE-64-3E-E5-0A-A9" received
+I	17:14:32.925	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-52-3E-D9-0A-B8
+A	17:14:32.926	"(0x) FE-52-3E-D9-0A-B8" received
+I	17:14:32.926	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-53-3E-D7-0A-AA
+A	17:14:32.926	"(0x) FE-53-3E-D7-0A-AA" received
+I	17:14:32.927	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-45-3F-42-06-A9
+A	17:14:32.927	"(0x) FE-45-3F-42-06-A9" received
+I	17:14:32.974	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4B-3F-3F-06-9C
+A	17:14:32.974	"(0x) FE-4B-3F-3F-06-9C" received
+I	17:14:32.975	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-42-3F-3C-06-8F
+A	17:14:32.975	"(0x) FE-42-3F-3C-06-8F" received
+I	17:14:32.976	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3F-3F-40-06-8A
+A	17:14:32.976	"(0x) FE-3F-3F-40-06-8A" received
+I	17:14:32.976	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-33-3F-59-06-69
+A	17:14:32.976	"(0x) FE-33-3F-59-06-69" received
+I	17:14:33.023	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-2E-3F-59-06-39
+A	17:14:33.023	"(0x) FE-2E-3F-59-06-39" received
+I	17:14:33.023	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-2B-3F-5F-06-04
+A	17:14:33.023	"(0x) FE-2B-3F-5F-06-04" received
+I	17:14:33.023	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-36-3F-56-05-B1
+A	17:14:33.023	"(0x) FE-36-3F-56-05-B1" received
+I	17:14:33.025	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-54-3F-83-04-F5
+A	17:14:33.025	"(0x) FE-54-3F-83-04-F5" received
+I	17:14:33.071	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-56-3F-85-04-E4
+A	17:14:33.071	"(0x) FE-56-3F-85-04-E4" received
+I	17:14:33.071	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-5A-3F-74-04-D4
+A	17:14:33.071	"(0x) FE-5A-3F-74-04-D4" received
+I	17:14:33.071	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-58-3F-71-04-F0
+A	17:14:33.072	"(0x) FE-58-3F-71-04-F0" received
+I	17:14:33.073	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3C-3F-82-02-B7
+A	17:14:33.073	"(0x) FE-3C-3F-82-02-B7" received
+I	17:14:33.122	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-38-3F-74-02-87
+A	17:14:33.122	"(0x) FE-38-3F-74-02-87" received
+I	17:14:33.122	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-38-3F-77-02-77
+A	17:14:33.122	"(0x) FE-38-3F-77-02-77" received
+I	17:14:33.122	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-42-3F-70-02-96
+A	17:14:33.122	"(0x) FE-42-3F-70-02-96" received
+I	17:14:33.122	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-9A-40-3C-FD-D6
+A	17:14:33.122	"(0x) FE-9A-40-3C-FD-D6" received
+I	17:14:33.169	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-8A-40-12-FD-F4
+A	17:14:33.169	"(0x) FE-8A-40-12-FD-F4" received
+I	17:14:33.170	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-2C-40-00-FE-F8
+A	17:14:33.170	"(0x) FE-2C-40-00-FE-F8" received
+I	17:14:33.171	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-24-3F-EA-FF-60
+A	17:14:33.171	"(0x) FE-24-3F-EA-FF-60" received
+I	17:14:33.172	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-45-3F-B1-FD-BE
+A	17:14:33.172	"(0x) FE-45-3F-B1-FD-BE" received
+I	17:14:33.218	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-44-3F-A8-FD-A9
+A	17:14:33.218	"(0x) FE-44-3F-A8-FD-A9" received
+I	17:14:33.219	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-41-3F-B5-FD-94
+A	17:14:33.219	"(0x) FE-41-3F-B5-FD-94" received
+I	17:14:33.219	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3C-3F-C2-FD-7A
+A	17:14:33.219	"(0x) FE-3C-3F-C2-FD-7A" received
+I	17:14:33.220	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4F-3F-BB-FD-58
+A	17:14:33.220	"(0x) FE-4F-3F-BB-FD-58" received
+I	17:14:33.269	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-53-3F-BA-FD-50
+A	17:14:33.269	"(0x) FE-53-3F-BA-FD-50" received
+I	17:14:33.269	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-50-3F-B2-FD-56
+A	17:14:33.269	"(0x) FE-50-3F-B2-FD-56" received
+I	17:14:33.269	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4A-3F-A8-FD-7A
+A	17:14:33.269	"(0x) FE-4A-3F-A8-FD-7A" received
+I	17:14:33.269	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-0E-3F-B0-FD-CB
+A	17:14:33.269	"(0x) FE-0E-3F-B0-FD-CB" received
+I	17:14:33.316	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-06-3F-AD-FD-87
+A	17:14:33.316	"(0x) FE-06-3F-AD-FD-87" received
+I	17:14:33.317	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-2E-3F-D4-FF-6F
+A	17:14:33.317	"(0x) FE-2E-3F-D4-FF-6F" received
+I	17:14:33.317	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-39-3F-B9-FE-8B
+A	17:14:33.317	"(0x) FE-39-3F-B9-FE-8B" received
+I	17:14:33.318	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4C-3F-97-FE-4F
+A	17:14:33.318	"(0x) FE-4C-3F-97-FE-4F" received
+I	17:14:33.363	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-59-3F-99-FE-44
+A	17:14:33.363	"(0x) FE-59-3F-99-FE-44" received
+I	17:14:33.364	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-50-3F-92-FE-3B
+A	17:14:33.364	"(0x) FE-50-3F-92-FE-3B" received
+I	17:14:33.364	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4D-3F-8F-FE-2E
+A	17:14:33.364	"(0x) FE-4D-3F-8F-FE-2E" received
+I	17:14:33.366	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-57-3F-B7-FB-C9
+A	17:14:33.366	"(0x) FE-57-3F-B7-FB-C9" received
+I	17:14:33.412	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-1D-3F-90-FB-95
+A	17:14:33.412	"(0x) FE-1D-3F-90-FB-95" received
+I	17:14:33.412	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-6D-3F-B2-FB-3A
+A	17:14:33.412	"(0x) FE-6D-3F-B2-FB-3A" received
+I	17:14:33.413	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-0A-3F-9B-FB-85
+A	17:14:33.413	"(0x) FE-0A-3F-9B-FB-85" received
+I	17:14:33.414	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-62-3F-D7-FC-BA
+A	17:14:33.414	"(0x) FE-62-3F-D7-FC-BA" received
+I	17:14:33.461	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-75-3F-C1-FC-BB
+A	17:14:33.461	"(0x) FE-75-3F-C1-FC-BB" received
+I	17:14:33.461	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4A-3F-C4-FD-21
+A	17:14:33.461	"(0x) FE-4A-3F-C4-FD-21" received
+I	17:14:33.461	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-2A-3F-79-FC-06
+A	17:14:33.461	"(0x) FE-2A-3F-79-FC-06" received
+I	17:14:33.463	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-1A-3F-65-FB-A1
+A	17:14:33.463	"(0x) FE-1A-3F-65-FB-A1" received
+I	17:14:33.510	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-2F-3F-6C-FB-8E
+A	17:14:33.510	"(0x) FE-2F-3F-6C-FB-8E" received
+I	17:14:33.511	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-1F-3F-74-FB-1E
+A	17:14:33.511	"(0x) FE-1F-3F-74-FB-1E" received
+I	17:14:33.511	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-03-3F-6B-FA-B7
+A	17:14:33.511	"(0x) FE-03-3F-6B-FA-B7" received
+I	17:14:33.512	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-19-3F-83-FC-3C
+A	17:14:33.512	"(0x) FE-19-3F-83-FC-3C" received
+I	17:14:33.559	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-1E-3F-83-FB-F5
+A	17:14:33.559	"(0x) FE-1E-3F-83-FB-F5" received
+I	17:14:33.559	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-25-3F-8D-FB-81
+A	17:14:33.559	"(0x) FE-25-3F-8D-FB-81" received
+I	17:14:33.560	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-26-3F-83-FB-65
+A	17:14:33.560	"(0x) FE-26-3F-83-FB-65" received
+I	17:14:33.561	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3D-3F-D1-FC-E1
+A	17:14:33.561	"(0x) FE-3D-3F-D1-FC-E1" received
+I	17:14:33.610	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-40-3F-CD-FC-EE
+A	17:14:33.610	"(0x) FE-40-3F-CD-FC-EE" received
+I	17:14:33.610	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-5C-3F-C7-FC-EA
+A	17:14:33.610	"(0x) FE-5C-3F-C7-FC-EA" received
+I	17:14:33.610	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-49-3F-CF-FC-F6
+A	17:14:33.610	"(0x) FE-49-3F-CF-FC-F6" received
+I	17:14:33.611	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-23-3F-8F-FD-AD
+A	17:14:33.611	"(0x) FE-23-3F-8F-FD-AD" received
+I	17:14:33.658	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-41-3F-AE-FD-D8
+A	17:14:33.658	"(0x) FE-41-3F-AE-FD-D8" received
+I	17:14:33.659	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4E-3F-B8-FD-FA
+A	17:14:33.659	"(0x) FE-4E-3F-B8-FD-FA" received
+I	17:14:33.660	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3D-3F-A5-FD-F3
+A	17:14:33.660	"(0x) FE-3D-3F-A5-FD-F3" received
+I	17:14:33.660	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-50-3F-A4-FD-53
+A	17:14:33.660	"(0x) FE-50-3F-A4-FD-53" received
+I	17:14:33.705	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-66-3F-C1-FD-7D
+A	17:14:33.705	"(0x) FE-66-3F-C1-FD-7D" received
+I	17:14:33.706	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-6A-3F-CF-FD-7B
+A	17:14:33.706	"(0x) FE-6A-3F-CF-FD-7B" received
+I	17:14:33.706	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-56-3F-A8-FD-7B
+A	17:14:33.706	"(0x) FE-56-3F-A8-FD-7B" received
+I	17:14:33.707	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-5F-3F-CE-FE-2F
+A	17:14:33.707	"(0x) FE-5F-3F-CE-FE-2F" received
+I	17:14:33.754	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-63-3F-CF-FE-33
+A	17:14:33.754	"(0x) FE-63-3F-CF-FE-33" received
+I	17:14:33.755	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-7A-3F-E1-FE-41
+A	17:14:33.755	"(0x) FE-7A-3F-E1-FE-41" received
+I	17:14:33.755	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-7C-3F-EB-FE-1B
+A	17:14:33.755	"(0x) FE-7C-3F-EB-FE-1B" received
+I	17:14:33.755	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-43-3F-95-FC-F6
+A	17:14:33.755	"(0x) FE-43-3F-95-FC-F6" received
+I	17:14:33.803	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3C-3F-9E-FC-DC
+A	17:14:33.803	"(0x) FE-3C-3F-9E-FC-DC" received
+I	17:14:33.804	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-43-3F-8F-FC-B4
+A	17:14:33.804	"(0x) FE-43-3F-8F-FC-B4" received
+I	17:14:33.804	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-2C-3F-9C-FC-4A
+A	17:14:33.804	"(0x) FE-2C-3F-9C-FC-4A" received
+I	17:14:33.804	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4D-3F-A3-FD-EE
+A	17:14:33.804	"(0x) FE-4D-3F-A3-FD-EE" received
+I	17:14:33.852	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-56-3F-9F-FD-CE
+A	17:14:33.852	"(0x) FE-56-3F-9F-FD-CE" received
+I	17:14:33.854	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-50-3F-8A-FD-85
+A	17:14:33.854	"(0x) FE-50-3F-8A-FD-85" received
+I	17:14:33.855	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-52-3F-87-FD-62
+A	17:14:33.855	"(0x) FE-52-3F-87-FD-62" received
+I	17:14:33.855	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-25-3F-8E-FB-72
+A	17:14:33.855	"(0x) FE-25-3F-8E-FB-72" received
+I	17:14:33.900	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-26-3F-95-FB-83
+A	17:14:33.900	"(0x) FE-26-3F-95-FB-83" received
+I	17:14:33.900	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-22-3F-95-FB-8F
+A	17:14:33.900	"(0x) FE-22-3F-95-FB-8F" received
+I	17:14:33.900	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-1D-3F-9B-FB-8F
+A	17:14:33.900	"(0x) FE-1D-3F-9B-FB-8F" received
+I	17:14:33.902	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-41-3F-A9-FB-8E
+A	17:14:33.902	"(0x) FE-41-3F-A9-FB-8E" received
+I	17:14:33.949	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-51-3F-B0-FB-6F
+A	17:14:33.949	"(0x) FE-51-3F-B0-FB-6F" received
+I	17:14:33.949	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-47-3F-93-FB-6D
+A	17:14:33.949	"(0x) FE-47-3F-93-FB-6D" received
+I	17:14:33.949	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-47-3F-95-FB-76
+A	17:14:33.949	"(0x) FE-47-3F-95-FB-76" received
+I	17:14:33.950	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-42-3F-93-FF-15
+A	17:14:33.950	"(0x) FE-42-3F-93-FF-15" received
+I	17:14:33.997	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-48-3F-8D-FF-30
+A	17:14:33.997	"(0x) FE-48-3F-8D-FF-30" received
+I	17:14:33.998	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-43-3F-8C-FF-3F
+A	17:14:33.998	"(0x) FE-43-3F-8C-FF-3F" received
+I	17:14:33.998	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-45-3F-84-FF-42
+A	17:14:33.998	"(0x) FE-45-3F-84-FF-42" received
+I	17:14:33.999	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-23-3F-A1-FE-27
+A	17:14:33.999	"(0x) FE-23-3F-A1-FE-27" received
+I	17:14:34.049	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-1A-3F-91-FE-17
+A	17:14:34.049	"(0x) FE-1A-3F-91-FE-17" received
+I	17:14:34.050	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-2C-3F-98-FE-13
+A	17:14:34.050	"(0x) FE-2C-3F-98-FE-13" received
+I	17:14:34.050	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-21-3F-9C-FE-08
+A	17:14:34.050	"(0x) FE-21-3F-9C-FE-08" received
+I	17:14:34.050	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4E-3F-8B-FF-D7
+A	17:14:34.050	"(0x) FE-4E-3F-8B-FF-D7" received
+I	17:14:34.095	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-50-3F-97-FF-F1
+A	17:14:34.095	"(0x) FE-50-3F-97-FF-F1" received
+I	17:14:34.096	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-49-3F-99-00-05
+A	17:14:34.096	"(0x) FE-49-3F-99-00-05" received
+I	17:14:34.096	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-54-3F-94-00-09
+A	17:14:34.096	"(0x) FE-54-3F-94-00-09" received
+I	17:14:34.097	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-38-3F-B3-FC-AC
+A	17:14:34.097	"(0x) FE-38-3F-B3-FC-AC" received
+I	17:14:34.146	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3B-3F-B9-FC-8E
+A	17:14:34.146	"(0x) FE-3B-3F-B9-FC-8E" received
+I	17:14:34.147	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3E-3F-B4-FC-72
+A	17:14:34.147	"(0x) FE-3E-3F-B4-FC-72" received
+I	17:14:34.147	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-31-3F-B0-FC-47
+A	17:14:34.147	"(0x) FE-31-3F-B0-FC-47" received
+I	17:14:34.147	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3C-3F-94-FF-44
+A	17:14:34.147	"(0x) FE-3C-3F-94-FF-44" received
+I	17:14:34.193	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3F-3F-8F-FF-59
+A	17:14:34.193	"(0x) FE-3F-3F-8F-FF-59" received
+I	17:14:34.194	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3E-3F-92-FF-6F
+A	17:14:34.194	"(0x) FE-3E-3F-92-FF-6F" received
+I	17:14:34.195	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-38-3F-9F-FF-84
+A	17:14:34.195	"(0x) FE-38-3F-9F-FF-84" received
+I	17:14:34.195	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3A-3F-B9-FD-F1
+A	17:14:34.195	"(0x) FE-3A-3F-B9-FD-F1" received
+I	17:14:34.243	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-38-3F-AF-FD-F0
+A	17:14:34.243	"(0x) FE-38-3F-AF-FD-F0" received
+I	17:14:34.244	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-29-3F-AB-FD-E7
+A	17:14:34.244	"(0x) FE-29-3F-AB-FD-E7" received
+I	17:14:34.244	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-2D-3F-B1-FD-E2
+A	17:14:34.244	"(0x) FE-2D-3F-B1-FD-E2" received
+I	17:14:34.244	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-27-3F-8D-FD-B5
+A	17:14:34.244	"(0x) FE-27-3F-8D-FD-B5" received
+I	17:14:34.291	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-1A-3F-8B-FD-56
+A	17:14:34.291	"(0x) FE-1A-3F-8B-FD-56" received
+I	17:14:34.292	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-12-3F-8F-FD-30
+A	17:14:34.292	"(0x) FE-12-3F-8F-FD-30" received
+I	17:14:34.292	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-13-3F-97-FD-16
+A	17:14:34.292	"(0x) FE-13-3F-97-FD-16" received
+I	17:14:34.293	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-0B-3F-82-FB-81
+A	17:14:34.293	"(0x) FE-0B-3F-82-FB-81" received
+I	17:14:34.339	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-02-3F-A7-FB-A2
+A	17:14:34.339	"(0x) FE-02-3F-A7-FB-A2" received
+I	17:14:34.339	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-0F-3F-9B-FC-20
+A	17:14:34.339	"(0x) FE-0F-3F-9B-FC-20" received
+I	17:14:34.339	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-19-3F-86-FC-8F
+A	17:14:34.339	"(0x) FE-19-3F-86-FC-8F" received
+I	17:14:34.341	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-46-3F-8A-FB-9E
+A	17:14:34.341	"(0x) FE-46-3F-8A-FB-9E" received
+I	17:14:34.391	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3B-3F-8F-FB-5F
+A	17:14:34.391	"(0x) FE-3B-3F-8F-FB-5F" received
+I	17:14:34.391	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-39-3F-8A-FB-2C
+A	17:14:34.391	"(0x) FE-39-3F-8A-FB-2C" received
+I	17:14:34.391	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-33-3F-94-FB-22
+A	17:14:34.391	"(0x) FE-33-3F-94-FB-22" received
+I	17:14:34.391	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-30-3F-72-FA-FC
+A	17:14:34.391	"(0x) FE-30-3F-72-FA-FC" received
+I	17:14:34.436	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-38-3F-6E-FB-09
+A	17:14:34.436	"(0x) FE-38-3F-6E-FB-09" received
+I	17:14:34.436	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-2A-3F-5B-FB-0B
+A	17:14:34.436	"(0x) FE-2A-3F-5B-FB-0B" received
+I	17:14:34.438	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-2A-3F-68-FB-0A
+A	17:14:34.438	"(0x) FE-2A-3F-68-FB-0A" received
+I	17:14:34.439	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-ED-40-80-FE-B0
+A	17:14:34.439	"(0x) FE-ED-40-80-FE-B0" received
+I	17:14:34.485	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-A3-3F-56-FE-EA
+A	17:14:34.485	"(0x) FE-A3-3F-56-FE-EA" received
+I	17:14:34.485	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-79-3F-A8-FE-D6
+A	17:14:34.485	"(0x) FE-79-3F-A8-FE-D6" received
+I	17:14:34.485	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-A6-40-00-FE-6C
+A	17:14:34.485	"(0x) FE-A6-40-00-FE-6C" received
+I	17:14:34.487	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-2B-3F-9C-FA-95
+A	17:14:34.487	"(0x) FE-2B-3F-9C-FA-95" received
+I	17:14:34.534	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-0E-3F-75-FA-C8
+A	17:14:34.534	"(0x) FE-0E-3F-75-FA-C8" received
+I	17:14:34.534	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-19-3F-A9-FA-09
+A	17:14:34.534	"(0x) FE-19-3F-A9-FA-09" received
+I	17:14:34.534	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-22-3F-A9-F9-A2
+A	17:14:34.534	"(0x) FE-22-3F-A9-F9-A2" received
+I	17:14:34.539	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-45-3F-2A-FD-9D
+A	17:14:34.539	"(0x) FE-45-3F-2A-FD-9D" received
+I	17:14:34.584	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-6E-3F-8F-FD-D7
+A	17:14:34.584	"(0x) FE-6E-3F-8F-FD-D7" received
+I	17:14:34.586	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3E-3F-5C-FE-11
+A	17:14:34.586	"(0x) FE-3E-3F-5C-FE-11" received
+I	17:14:34.587	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-66-3F-B2-FE-4E
+A	17:14:34.587	"(0x) FE-66-3F-B2-FE-4E" received
+I	17:14:34.587	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-10-3F-6B-FE-62
+A	17:14:34.587	"(0x) FE-10-3F-6B-FE-62" received
+I	17:14:34.633	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-44-3F-D8-FD-FB
+A	17:14:34.633	"(0x) FE-44-3F-D8-FD-FB" received
+I	17:14:34.634	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-77-40-03-FD-A1
+A	17:14:34.634	"(0x) FE-77-40-03-FD-A1" received
+I	17:14:34.635	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-62-3F-F9-FD-AA
+A	17:14:34.635	"(0x) FE-62-3F-F9-FD-AA" received
+I	17:14:34.635	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-32-3F-84-FA-1D
+A	17:14:34.636	"(0x) FE-32-3F-84-FA-1D" received
+I	17:14:34.682	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-33-3F-9D-FA-66
+A	17:14:34.682	"(0x) FE-33-3F-9D-FA-66" received
+I	17:14:34.683	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-1B-3F-69-FA-68
+A	17:14:34.683	"(0x) FE-1B-3F-69-FA-68" received
+I	17:14:34.684	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-0D-3F-54-FA-7D
+A	17:14:34.685	"(0x) FE-0D-3F-54-FA-7D" received
+I	17:14:34.685	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-56-3F-64-FD-B7
+A	17:14:34.685	"(0x) FE-56-3F-64-FD-B7" received
+I	17:14:34.729	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4C-3F-A3-FD-18
+A	17:14:34.729	"(0x) FE-4C-3F-A3-FD-18" received
+I	17:14:34.731	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-59-3F-8F-FC-CE
+A	17:14:34.731	"(0x) FE-59-3F-8F-FC-CE" received
+I	17:14:34.731	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-43-3F-79-FC-7F
+A	17:14:34.731	"(0x) FE-43-3F-79-FC-7F" received
+I	17:14:34.732	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3B-3F-AB-FD-BE
+A	17:14:34.732	"(0x) FE-3B-3F-AB-FD-BE" received
+I	17:14:34.778	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-39-3F-91-FD-D0
+A	17:14:34.778	"(0x) FE-39-3F-91-FD-D0" received
+I	17:14:34.778	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-2C-3F-9F-FD-BA
+A	17:14:34.778	"(0x) FE-2C-3F-9F-FD-BA" received
+I	17:14:34.779	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-23-3F-B0-FD-C9
+A	17:14:34.779	"(0x) FE-23-3F-B0-FD-C9" received
+I	17:14:34.781	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-44-3F-B6-FD-D3
+A	17:14:34.781	"(0x) FE-44-3F-B6-FD-D3" received
+I	17:14:34.828	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4B-3F-B6-FE-05
+A	17:14:34.828	"(0x) FE-4B-3F-B6-FE-05" received
+I	17:14:34.829	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3C-3F-AC-FE-1E
+A	17:14:34.829	"(0x) FE-3C-3F-AC-FE-1E" received
+I	17:14:34.829	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4C-3F-B6-FE-38
+A	17:14:34.829	"(0x) FE-4C-3F-B6-FE-38" received
+I	17:14:34.830	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-58-3F-B7-FE-0C
+A	17:14:34.830	"(0x) FE-58-3F-B7-FE-0C" received
+I	17:14:34.876	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4C-3F-AA-FE-05
+A	17:14:34.876	"(0x) FE-4C-3F-AA-FE-05" received
+I	17:14:34.876	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4C-3F-A4-FE-3A
+A	17:14:34.876	"(0x) FE-4C-3F-A4-FE-3A" received
+I	17:14:34.877	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4C-3F-A5-FE-62
+A	17:14:34.877	"(0x) FE-4C-3F-A5-FE-62" received
+I	17:14:34.881	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-40-3F-E2-FD-C6
+A	17:14:34.881	"(0x) FE-40-3F-E2-FD-C6" received
+I	17:14:34.924	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3B-3F-BF-FE-2D
+A	17:14:34.924	"(0x) FE-3B-3F-BF-FE-2D" received
+I	17:14:34.924	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-1D-3F-96-FD-58
+A	17:14:34.924	"(0x) FE-1D-3F-96-FD-58" received
+I	17:14:34.924	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-17-3F-A2-FD-4A
+A	17:14:34.924	"(0x) FE-17-3F-A2-FD-4A" received
+I	17:14:34.926	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-51-3F-E3-00-B9
+A	17:14:34.926	"(0x) FE-51-3F-E3-00-B9" received
+I	17:14:34.973	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-5B-3F-E3-00-A2
+A	17:14:34.973	"(0x) FE-5B-3F-E3-00-A2" received
+I	17:14:34.973	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-38-3F-9D-00-D4
+A	17:14:34.973	"(0x) FE-38-3F-9D-00-D4" received
+I	17:14:34.975	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-46-3F-D6-FF-F8
+A	17:14:34.975	"(0x) FE-46-3F-D6-FF-F8" received
+I	17:14:34.975	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-51-3F-F8-FF-C2
+A	17:14:34.975	"(0x) FE-51-3F-F8-FF-C2" received
+I	17:14:35.022	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-50-3F-E8-FE-13
+A	17:14:35.022	"(0x) FE-50-3F-E8-FE-13" received
+I	17:14:35.023	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-3B-3F-A2-FE-85
+A	17:14:35.023	"(0x) FE-3B-3F-A2-FE-85" received
+I	17:14:35.024	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-23-3F-83-FE-DA
+A	17:14:35.024	"(0x) FE-23-3F-83-FE-DA" received
+I	17:14:35.024	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-E4-3E-F3-FF-CE
+A	17:14:35.024	"(0x) FD-E4-3E-F3-FF-CE" received
+I	17:14:35.073	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-D7-3E-E3-FF-D5
+A	17:14:35.073	"(0x) FD-D7-3E-E3-FF-D5" received
+I	17:14:35.073	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-CF-3F-0D-FF-B3
+A	17:14:35.073	"(0x) FD-CF-3F-0D-FF-B3" received
+I	17:14:35.073	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-E4-3F-1B-FF-8F
+A	17:14:35.073	"(0x) FD-E4-3F-1B-FF-8F" received
+I	17:14:35.078	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-DC-3F-09-FF-0F
+A	17:14:35.078	"(0x) FD-DC-3F-09-FF-0F" received
+I	17:14:35.119	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FD-FF-3F-77-FE-EA
+A	17:14:35.119	"(0x) FD-FF-3F-77-FE-EA" received
+I	17:14:35.119	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-1C-3F-B3-FE-8D
+A	17:14:35.119	"(0x) FE-1C-3F-B3-FE-8D" received
+I	17:14:35.119	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-1B-3F-AF-FE-8D
+A	17:14:35.119	"(0x) FE-1B-3F-AF-FE-8D" received
+I	17:14:35.121	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-8B-40-50-FE-CF
+A	17:14:35.121	"(0x) FE-8B-40-50-FE-CF" received
+I	17:14:35.167	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-8C-40-94-FE-C4
+A	17:14:35.167	"(0x) FE-8C-40-94-FE-C4" received
+I	17:14:35.168	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-EA-41-52-FF-42
+A	17:14:35.168	"(0x) FE-EA-41-52-FF-42" received
+I	17:14:35.168	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-C3-41-0A-FF-7A
+A	17:14:35.168	"(0x) FE-C3-41-0A-FF-7A" received
+I	17:14:35.169	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-5E-40-C9-FF-96
+A	17:14:35.169	"(0x) FE-5E-40-C9-FF-96" received
+I	17:14:35.216	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-55-40-C5-FF-AC
+A	17:14:35.216	"(0x) FE-55-40-C5-FF-AC" received
+I	17:14:35.217	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-4D-40-62-00-1B
+A	17:14:35.217	"(0x) FE-4D-40-62-00-1B" received
+I	17:14:35.218	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-21-40-6F-00-2C
+A	17:14:35.218	"(0x) FE-21-40-6F-00-2C" received
+I	17:14:35.218	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-70-42-AA-FE-3F
+A	17:14:35.218	"(0x) FE-70-42-AA-FE-3F" received
+I	17:14:35.266	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-9B-42-4E-FE-3F
+A	17:14:35.266	"(0x) FE-9B-42-4E-FE-3F" received
+I	17:14:35.266	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-87-42-5C-FE-0A
+A	17:14:35.266	"(0x) FE-87-42-5C-FE-0A" received
+I	17:14:35.266	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FE-68-42-3D-FD-BD
+A	17:14:35.266	"(0x) FE-68-42-3D-FD-BD" received
+I	17:14:35.272	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FC-00-3F-C7-FF-BC
+A	17:14:35.272	"(0x) FC-00-3F-C7-FF-BC" received
+I	17:14:35.314	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FC-18-40-14-FF-DE
+A	17:14:35.314	"(0x) FC-18-40-14-FF-DE" received
+I	17:14:35.314	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FC-18-40-25-FF-B8
+A	17:14:35.314	"(0x) FC-18-40-25-FF-B8" received
+I	17:14:35.314	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) FC-00-40-00-FF-83
+A	17:14:35.314	"(0x) FC-00-40-00-FF-83" received
+I	17:14:35.316	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F9-B2-41-26-FE-DD
+A	17:14:35.316	"(0x) F9-B2-41-26-FE-DD" received
+I	17:14:35.362	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F9-B7-40-A6-01-16
+A	17:14:35.362	"(0x) F9-B7-40-A6-01-16" received
+I	17:14:35.363	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F9-AE-40-D9-01-AF
+A	17:14:35.363	"(0x) F9-AE-40-D9-01-AF" received
+I	17:14:35.364	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F9-B4-3F-9B-01-3C
+A	17:14:35.364	"(0x) F9-B4-3F-9B-01-3C" received
+I	17:14:35.364	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F8-79-40-1A-FD-58
+A	17:14:35.364	"(0x) F8-79-40-1A-FD-58" received
+I	17:14:35.411	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F8-63-40-28-FE-7E
+A	17:14:35.411	"(0x) F8-63-40-28-FE-7E" received
+I	17:14:35.411	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F8-97-40-4B-00-70
+A	17:14:35.411	"(0x) F8-97-40-4B-00-70" received
+I	17:14:35.411	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F8-A6-40-B5-FF-70
+A	17:14:35.411	"(0x) F8-A6-40-B5-FF-70" received
+I	17:14:35.414	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F6-ED-3F-5C-FE-61
+A	17:14:35.414	"(0x) F6-ED-3F-5C-FE-61" received
+I	17:14:35.460	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F6-1A-3F-5E-FE-46
+A	17:14:35.460	"(0x) F6-1A-3F-5E-FE-46" received
+I	17:14:35.460	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F5-F9-3F-22-FE-59
+A	17:14:35.460	"(0x) F5-F9-3F-22-FE-59" received
+I	17:14:35.460	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F5-F0-3F-2A-FE-5A
+A	17:14:35.460	"(0x) F5-F0-3F-2A-FE-5A" received
+I	17:14:35.462	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F4-51-40-16-FE-13
+A	17:14:35.462	"(0x) F4-51-40-16-FE-13" received
+I	17:14:35.509	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F4-36-3F-E3-FD-FE
+A	17:14:35.509	"(0x) F4-36-3F-E3-FD-FE" received
+I	17:14:35.509	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F3-F4-3F-7E-FE-19
+A	17:14:35.509	"(0x) F3-F4-3F-7E-FE-19" received
+I	17:14:35.509	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F3-C5-3F-76-FE-5D
+A	17:14:35.509	"(0x) F3-C5-3F-76-FE-5D" received
+I	17:14:35.510	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F1-99-3F-42-FD-02
+A	17:14:35.510	"(0x) F1-99-3F-42-FD-02" received
+I	17:14:35.558	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F1-80-3F-3E-FC-DC
+A	17:14:35.558	"(0x) F1-80-3F-3E-FC-DC" received
+I	17:14:35.558	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F1-6E-3F-37-FC-C3
+A	17:14:35.558	"(0x) F1-6E-3F-37-FC-C3" received
+I	17:14:35.558	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F1-53-3F-0A-FC-B8
+A	17:14:35.558	"(0x) F1-53-3F-0A-FC-B8" received
+I	17:14:35.558	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) ED-22-3A-A8-00-68
+A	17:14:35.559	"(0x) ED-22-3A-A8-00-68" received
+I	17:14:35.606	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) EC-DA-39-66-00-A7
+A	17:14:35.606	"(0x) EC-DA-39-66-00-A7" received
+I	17:14:35.606	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) EC-A8-39-98-FF-AB
+A	17:14:35.606	"(0x) EC-A8-39-98-FF-AB" received
+I	17:14:35.608	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) EC-E4-3A-70-FF-15
+A	17:14:35.608	"(0x) EC-E4-3A-70-FF-15" received
+I	17:14:35.608	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) EC-B0-3E-E7-FF-EC
+A	17:14:35.608	"(0x) EC-B0-3E-E7-FF-EC" received
+I	17:14:35.656	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) EC-C3-3F-48-00-04
+A	17:14:35.656	"(0x) EC-C3-3F-48-00-04" received
+I	17:14:35.657	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) EC-C7-3F-91-00-04
+A	17:14:35.658	"(0x) EC-C7-3F-91-00-04" received
+I	17:14:35.658	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) EC-E1-3F-AE-00-04
+A	17:14:35.658	"(0x) EC-E1-3F-AE-00-04" received
+I	17:14:35.658	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E9-59-3C-DE-FD-66
+A	17:14:35.658	"(0x) E9-59-3C-DE-FD-66" received
+I	17:14:35.704	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E9-49-3D-00-FD-42
+A	17:14:35.704	"(0x) E9-49-3D-00-FD-42" received
+I	17:14:35.705	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E9-32-3C-CE-FD-3A
+A	17:14:35.705	"(0x) E9-32-3C-CE-FD-3A" received
+I	17:14:35.706	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E9-02-3C-8D-FD-60
+A	17:14:35.706	"(0x) E9-02-3C-8D-FD-60" received
+I	17:14:35.706	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E6-37-3B-5F-FE-A2
+A	17:14:35.706	"(0x) E6-37-3B-5F-FE-A2" received
+I	17:14:35.752	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E6-11-3B-3E-FE-74
+A	17:14:35.753	"(0x) E6-11-3B-3E-FE-74" received
+I	17:14:35.753	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E5-EC-3B-06-FE-71
+A	17:14:35.753	"(0x) E5-EC-3B-06-FE-71" received
+I	17:14:35.754	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E5-EC-3A-E3-FE-95
+A	17:14:35.754	"(0x) E5-EC-3A-E3-FE-95" received
+I	17:14:35.754	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E2-81-39-12-FF-5B
+A	17:14:35.754	"(0x) E2-81-39-12-FF-5B" received
+I	17:14:35.803	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E2-72-39-1C-FF-96
+A	17:14:35.803	"(0x) E2-72-39-1C-FF-96" received
+I	17:14:35.803	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E2-5D-39-2C-FF-FB
+A	17:14:35.803	"(0x) E2-5D-39-2C-FF-FB" received
+I	17:14:35.804	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E2-61-39-2B-00-19
+A	17:14:35.804	"(0x) E2-61-39-2B-00-19" received
+I	17:14:35.804	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) DF-05-36-CA-01-71
+A	17:14:35.804	"(0x) DF-05-36-CA-01-71" received
+I	17:14:35.852	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) DF-0A-36-97-01-3C
+A	17:14:35.852	"(0x) DF-0A-36-97-01-3C" received
+I	17:14:35.853	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) DE-FA-36-C5-01-41
+A	17:14:35.853	"(0x) DE-FA-36-C5-01-41" received
+I	17:14:35.853	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) DE-EF-36-E9-01-49
+A	17:14:35.853	"(0x) DE-EF-36-E9-01-49" received
+I	17:14:35.853	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) DB-FF-35-04-00-27
+A	17:14:35.853	"(0x) DB-FF-35-04-00-27" received
+I	17:14:35.899	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) DC-01-35-25-00-E3
+A	17:14:35.899	"(0x) DC-01-35-25-00-E3" received
+I	17:14:35.900	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) DB-BE-34-D3-00-DB
+A	17:14:35.901	"(0x) DB-BE-34-D3-00-DB" received
+I	17:14:35.901	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) DB-BE-34-9B-00-F9
+A	17:14:35.901	"(0x) DB-BE-34-9B-00-F9" received
+I	17:14:35.902	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D8-A7-32-E1-00-EB
+A	17:14:35.902	"(0x) D8-A7-32-E1-00-EB" received
+I	17:14:35.948	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D8-AE-32-FF-00-84
+A	17:14:35.948	"(0x) D8-AE-32-FF-00-84" received
+I	17:14:35.949	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D8-97-32-CC-00-65
+A	17:14:35.949	"(0x) D8-97-32-CC-00-65" received
+I	17:14:35.949	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D8-79-32-91-00-76
+A	17:14:35.949	"(0x) D8-79-32-91-00-76" received
+I	17:14:35.950	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D5-A2-30-FF-02-98
+A	17:14:35.950	"(0x) D5-A2-30-FF-02-98" received
+I	17:14:35.998	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D5-99-31-08-02-B0
+A	17:14:35.998	"(0x) D5-99-31-08-02-B0" received
+I	17:14:35.999	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D5-21-31-1D-02-D7
+A	17:14:35.999	"(0x) D5-21-31-1D-02-D7" received
+I	17:14:35.999	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D3-7F-31-E4-03-06
+A	17:14:35.999	"(0x) D3-7F-31-E4-03-06" received
+I	17:14:36.000	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D1-0B-2B-95-01-6C
+A	17:14:36.000	"(0x) D1-0B-2B-95-01-6C" received
+I	17:14:36.047	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D0-20-2D-0F-01-26
+A	17:14:36.047	"(0x) D0-20-2D-0F-01-26" received
+I	17:14:36.047	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D1-58-2D-C6-01-04
+A	17:14:36.047	"(0x) D1-58-2D-C6-01-04" received
+I	17:14:36.048	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D1-BA-2E-6A-01-35
+A	17:14:36.048	"(0x) D1-BA-2E-6A-01-35" received
+I	17:14:36.048	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CF-9C-2A-43-03-5D
+A	17:14:36.048	"(0x) CF-9C-2A-43-03-5D" received
+I	17:14:36.095	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CF-9D-2A-46-03-70
+A	17:14:36.095	"(0x) CF-9D-2A-46-03-70" received
+I	17:14:36.097	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CF-6B-2A-2D-03-8D
+A	17:14:36.097	"(0x) CF-6B-2A-2D-03-8D" received
+I	17:14:36.097	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CF-4D-29-DE-03-A7
+A	17:14:36.097	"(0x) CF-4D-29-DE-03-A7" received
+I	17:14:36.098	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CB-D5-23-C7-05-F7
+A	17:14:36.098	"(0x) CB-D5-23-C7-05-F7" received
+I	17:14:36.145	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CB-9C-23-BF-05-EE
+A	17:14:36.145	"(0x) CB-9C-23-BF-05-EE" received
+I	17:14:36.145	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CB-98-23-BE-05-CA
+A	17:14:36.145	"(0x) CB-98-23-BE-05-CA" received
+I	17:14:36.145	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CB-8F-23-ED-05-D5
+A	17:14:36.145	"(0x) CB-8F-23-ED-05-D5" received
+I	17:14:36.145	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CA-06-22-CB-05-E4
+A	17:14:36.145	"(0x) CA-06-22-CB-05-E4" received
+I	17:14:36.192	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CA-0A-22-BE-05-ED
+A	17:14:36.192	"(0x) CA-0A-22-BE-05-ED" received
+I	17:14:36.195	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C9-F8-22-8F-05-EF
+A	17:14:36.195	"(0x) C9-F8-22-8F-05-EF" received
+I	17:14:36.195	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C9-F5-22-7E-05-F7
+A	17:14:36.195	"(0x) C9-F5-22-7E-05-F7" received
+I	17:14:36.195	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C7-D7-1E-E2-05-45
+A	17:14:36.195	"(0x) C7-D7-1E-E2-05-45" received
+I	17:14:36.242	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C7-C4-1E-C4-05-3B
+A	17:14:36.242	"(0x) C7-C4-1E-C4-05-3B" received
+I	17:14:36.242	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C7-CC-1E-AB-05-29
+A	17:14:36.242	"(0x) C7-CC-1E-AB-05-29" received
+I	17:14:36.243	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C7-AB-1E-8C-04-21
+A	17:14:36.243	"(0x) C7-AB-1E-8C-04-21" received
+I	17:14:36.243	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C6-D5-1E-16-05-31
+A	17:14:36.243	"(0x) C6-D5-1E-16-05-31" received
+I	17:14:36.290	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C6-ED-1E-5B-05-0C
+A	17:14:36.290	"(0x) C6-ED-1E-5B-05-0C" received
+I	17:14:36.292	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C6-FC-1E-66-04-F5
+A	17:14:36.292	"(0x) C6-FC-1E-66-04-F5" received
+I	17:14:36.292	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C6-FC-1E-34-05-13
+A	17:14:36.292	"(0x) C6-FC-1E-34-05-13" received
+I	17:14:36.293	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C4-F4-19-C8-03-DA
+A	17:14:36.293	"(0x) C4-F4-19-C8-03-DA" received
+I	17:14:36.338	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C4-F8-19-C5-03-D9
+A	17:14:36.338	"(0x) C4-F8-19-C5-03-D9" received
+I	17:14:36.339	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C4-EA-19-CF-03-FE
+A	17:14:36.339	"(0x) C4-EA-19-CF-03-FE" received
+I	17:14:36.339	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C4-E2-19-CF-04-03
+A	17:14:36.339	"(0x) C4-E2-19-CF-04-03" received
+I	17:14:36.340	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C3-EA-18-40-03-06
+A	17:14:36.340	"(0x) C3-EA-18-40-03-06" received
+I	17:14:36.386	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C3-EE-18-4C-03-07
+A	17:14:36.386	"(0x) C3-EE-18-4C-03-07" received
+I	17:14:36.388	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C3-EF-18-4D-03-15
+A	17:14:36.388	"(0x) C3-EF-18-4D-03-15" received
+I	17:14:36.389	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C3-E3-18-4E-03-07
+A	17:14:36.389	"(0x) C3-E3-18-4E-03-07" received
+I	17:14:36.390	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C2-1B-13-84-04-58
+A	17:14:36.390	"(0x) C2-1B-13-84-04-58" received
+I	17:14:36.435	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C2-12-13-91-04-42
+A	17:14:36.435	"(0x) C2-12-13-91-04-42" received
+I	17:14:36.435	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C2-2E-13-AF-04-1E
+A	17:14:36.435	"(0x) C2-2E-13-AF-04-1E" received
+I	17:14:36.436	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C2-3A-13-C0-04-0F
+A	17:14:36.436	"(0x) C2-3A-13-C0-04-0F" received
+I	17:14:36.437	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C1-A8-12-5A-02-CE
+A	17:14:36.437	"(0x) C1-A8-12-5A-02-CE" received
+I	17:14:36.484	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C1-88-12-28-02-10
+A	17:14:36.484	"(0x) C1-88-12-28-02-10" received
+I	17:14:36.484	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C1-8D-11-FA-01-FA
+A	17:14:36.484	"(0x) C1-8D-11-FA-01-FA" received
+I	17:14:36.484	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C1-7D-11-E8-02-4F
+A	17:14:36.484	"(0x) C1-7D-11-E8-02-4F" received
+I	17:14:36.486	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C1-2E-10-C2-03-77
+A	17:14:36.486	"(0x) C1-2E-10-C2-03-77" received
+I	17:14:36.532	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C1-3A-10-CC-03-76
+A	17:14:36.532	"(0x) C1-3A-10-CC-03-76" received
+I	17:14:36.532	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C1-3B-10-C1-03-5D
+A	17:14:36.532	"(0x) C1-3B-10-C1-03-5D" received
+I	17:14:36.533	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C1-34-10-B1-03-58
+A	17:14:36.533	"(0x) C1-34-10-B1-03-58" received
+I	17:14:36.534	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-99-0A-E0-02-8B
+A	17:14:36.534	"(0x) BF-99-0A-E0-02-8B" received
+I	17:14:36.581	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-8C-0A-D5-02-91
+A	17:14:36.581	"(0x) BF-8C-0A-D5-02-91" received
+I	17:14:36.582	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-8D-0A-CF-02-84
+A	17:14:36.582	"(0x) BF-8D-0A-CF-02-84" received
+I	17:14:36.582	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-8D-0A-C5-02-82
+A	17:14:36.582	"(0x) BF-8D-0A-C5-02-82" received
+I	17:14:36.583	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-9B-0B-19-01-FE
+A	17:14:36.583	"(0x) BF-9B-0B-19-01-FE" received
+I	17:14:36.631	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-AC-0B-33-01-F7
+A	17:14:36.631	"(0x) BF-AC-0B-33-01-F7" received
+I	17:14:36.632	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-B0-0B-4F-01-F8
+A	17:14:36.632	"(0x) BF-B0-0B-4F-01-F8" received
+I	17:14:36.632	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-B4-0B-60-02-02
+A	17:14:36.632	"(0x) BF-B4-0B-60-02-02" received
+I	17:14:36.634	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-7E-09-3F-02-95
+A	17:14:36.634	"(0x) BF-7E-09-3F-02-95" received
+I	17:14:36.699	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-6F-09-3F-02-9C
+A	17:14:36.699	"(0x) BF-6F-09-3F-02-9C" received
+I	17:14:36.701	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-69-09-2B-02-BF
+A	17:14:36.701	"(0x) BF-69-09-2B-02-BF" received
+I	17:14:36.701	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-61-09-2D-02-BF
+A	17:14:36.701	"(0x) BF-61-09-2D-02-BF" received
+I	17:14:36.701	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-04-06-EA-01-CE
+A	17:14:36.701	"(0x) BF-04-06-EA-01-CE" received
+I	17:14:36.729	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-05-06-C9-01-D5
+A	17:14:36.729	"(0x) BF-05-06-C9-01-D5" received
+I	17:14:36.730	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-10-06-A1-01-EC
+A	17:14:36.730	"(0x) BF-10-06-A1-01-EC" received
+I	17:14:36.732	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-0E-06-7D-02-02
+A	17:14:36.732	"(0x) BF-0E-06-7D-02-02" received
+I	17:14:36.732	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-30-07-B8-00-3F
+A	17:14:36.732	"(0x) BF-30-07-B8-00-3F" received
+I	17:14:36.778	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-33-07-C4-00-37
+A	17:14:36.778	"(0x) BF-33-07-C4-00-37" received
+I	17:14:36.779	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-5A-07-C3-00-4D
+A	17:14:36.779	"(0x) BF-5A-07-C3-00-4D" received
+I	17:14:36.779	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-6A-07-D0-00-53
+A	17:14:36.779	"(0x) BF-6A-07-D0-00-53" received
+I	17:14:36.779	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-32-05-B0-00-0C
+A	17:14:36.779	"(0x) BF-32-05-B0-00-0C" received
+I	17:14:36.826	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-33-05-C0-00-CA
+A	17:14:36.826	"(0x) BF-33-05-C0-00-CA" received
+I	17:14:36.826	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-40-05-E0-00-A1
+A	17:14:36.826	"(0x) BF-40-05-E0-00-A1" received
+I	17:14:36.827	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-3D-05-E5-00-8A
+A	17:14:36.827	"(0x) BF-3D-05-E5-00-8A" received
+I	17:14:36.827	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-1A-04-77-FF-8E
+A	17:14:36.827	"(0x) BF-1A-04-77-FF-8E" received
+I	17:14:36.877	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-21-04-83-FF-92
+A	17:14:36.877	"(0x) BF-21-04-83-FF-92" received
+I	17:14:36.878	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-30-04-94-FF-8B
+A	17:14:36.878	"(0x) BF-30-04-94-FF-8B" received
+I	17:14:36.878	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-37-04-A6-FF-8B
+A	17:14:36.878	"(0x) BF-37-04-A6-FF-8B" received
+I	17:14:36.879	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-59-00-2E-02-08
+A	17:14:36.879	"(0x) BF-59-00-2E-02-08" received
+I	17:14:36.923	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-A0-00-09-01-DC
+A	17:14:36.923	"(0x) BF-A0-00-09-01-DC" received
+I	17:14:36.925	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-97-00-17-01-C7
+A	17:14:36.925	"(0x) BF-97-00-17-01-C7" received
+I	17:14:36.925	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BF-79-00-54-01-BC
+A	17:14:36.925	"(0x) BF-79-00-54-01-BC" received
+I	17:14:36.926	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-2F-FF-9B-01-AA
+A	17:14:36.926	"(0x) BE-2F-FF-9B-01-AA" received
+I	17:14:36.972	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-04-FF-FC-01-A6
+A	17:14:36.972	"(0x) BE-04-FF-FC-01-A6" received
+I	17:14:36.973	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-3F-FF-FC-01-96
+A	17:14:36.973	"(0x) BE-3F-FF-FC-01-96" received
+I	17:14:36.974	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-5D-FF-FC-01-8B
+A	17:14:36.974	"(0x) BE-5D-FF-FC-01-8B" received
+I	17:14:36.974	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-27-FD-B4-01-1B
+A	17:14:36.974	"(0x) BE-27-FD-B4-01-1B" received
+I	17:14:37.022	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-1D-FD-94-01-1D
+A	17:14:37.022	"(0x) BE-1D-FD-94-01-1D" received
+I	17:14:37.022	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-1C-FD-53-01-0E
+A	17:14:37.022	"(0x) BE-1C-FD-53-01-0E" received
+I	17:14:37.023	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-1A-FD-37-01-00
+A	17:14:37.023	"(0x) BE-1A-FD-37-01-00" received
+I	17:14:37.023	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-A1-FF-15-00-6E
+A	17:14:37.023	"(0x) BE-A1-FF-15-00-6E" received
+I	17:14:37.069	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-BC-FF-13-00-9F
+A	17:14:37.069	"(0x) BE-BC-FF-13-00-9F" received
+I	17:14:37.071	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-BA-FF-19-00-C7
+A	17:14:37.071	"(0x) BE-BA-FF-19-00-C7" received
+I	17:14:37.072	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-9F-FF-26-01-03
+A	17:14:37.072	"(0x) BE-9F-FF-26-01-03" received
+I	17:14:37.072	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7E-FF-0E-00-66
+A	17:14:37.072	"(0x) BE-7E-FF-0E-00-66" received
+I	17:14:37.118	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-85-FF-15-00-59
+A	17:14:37.118	"(0x) BE-85-FF-15-00-59" received
+I	17:14:37.119	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-A0-FF-17-00-59
+A	17:14:37.119	"(0x) BE-A0-FF-17-00-59" received
+I	17:14:37.119	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-A5-FF-17-00-6D
+A	17:14:37.119	"(0x) BE-A5-FF-17-00-6D" received
+I	17:14:37.119	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7E-FF-40-00-15
+A	17:14:37.119	"(0x) BE-7E-FF-40-00-15" received
+I	17:14:37.167	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-82-FF-51-00-15
+A	17:14:37.167	"(0x) BE-82-FF-51-00-15" received
+I	17:14:37.168	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7C-FF-81-00-1E
+A	17:14:37.168	"(0x) BE-7C-FF-81-00-1E" received
+I	17:14:37.168	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7E-FF-C5-00-74
+A	17:14:37.168	"(0x) BE-7E-FF-C5-00-74" received
+I	17:14:37.168	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6C-FF-19-00-49
+A	17:14:37.168	"(0x) BE-6C-FF-19-00-49" received
+I	17:14:37.216	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-65-FF-0D-00-5E
+A	17:14:37.216	"(0x) BE-65-FF-0D-00-5E" received
+I	17:14:37.216	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6A-FF-13-00-66
+A	17:14:37.216	"(0x) BE-6A-FF-13-00-66" received
+I	17:14:37.216	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-73-FF-10-00-47
+A	17:14:37.216	"(0x) BE-73-FF-10-00-47" received
+I	17:14:37.217	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-94-FE-FA-FF-FB
+A	17:14:37.217	"(0x) BE-94-FE-FA-FF-FB" received
+I	17:14:37.266	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-93-FE-F3-FF-E3
+A	17:14:37.266	"(0x) BE-93-FE-F3-FF-E3" received
+I	17:14:37.266	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-84-FE-ED-FF-DB
+A	17:14:37.266	"(0x) BE-84-FE-ED-FF-DB" received
+I	17:14:37.267	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-8D-FE-EF-FF-CF
+A	17:14:37.267	"(0x) BE-8D-FE-EF-FF-CF" received
+I	17:14:37.268	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7E-FF-16-00-03
+A	17:14:37.268	"(0x) BE-7E-FF-16-00-03" received
+I	17:14:37.313	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-70-FF-1B-00-04
+A	17:14:37.313	"(0x) BE-70-FF-1B-00-04" received
+I	17:14:37.313	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7B-FF-14-FF-F4
+A	17:14:37.314	"(0x) BE-7B-FF-14-FF-F4" received
+I	17:14:37.315	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7B-FF-17-FF-FC
+A	17:14:37.315	"(0x) BE-7B-FF-17-FF-FC" received
+I	17:14:37.316	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7C-FF-13-FF-FF
+A	17:14:37.316	"(0x) BE-7C-FF-13-FF-FF" received
+I	17:14:37.363	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-74-FF-21-00-04
+A	17:14:37.363	"(0x) BE-74-FF-21-00-04" received
+I	17:14:37.363	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-75-FF-27-00-04
+A	17:14:37.363	"(0x) BE-75-FF-27-00-04" received
+I	17:14:37.364	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-74-FF-1F-00-07
+A	17:14:37.364	"(0x) BE-74-FF-1F-00-07" received
+I	17:14:37.366	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7F-FF-11-00-5F
+A	17:14:37.366	"(0x) BE-7F-FF-11-00-5F" received
+I	17:14:37.410	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7F-FF-11-00-6C
+A	17:14:37.410	"(0x) BE-7F-FF-11-00-6C" received
+I	17:14:37.410	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-8F-FF-16-00-65
+A	17:14:37.410	"(0x) BE-8F-FF-16-00-65" received
+I	17:14:37.411	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-92-FF-10-00-5D
+A	17:14:37.411	"(0x) BE-92-FF-10-00-5D" received
+I	17:14:37.411	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-69-FF-13-00-91
+A	17:14:37.411	"(0x) BE-69-FF-13-00-91" received
+I	17:14:37.466	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-74-FF-0C-00-84
+A	17:14:37.466	"(0x) BE-74-FF-0C-00-84" received
+I	17:14:37.466	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6D-FF-0C-00-75
+A	17:14:37.466	"(0x) BE-6D-FF-0C-00-75" received
+I	17:14:37.466	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6D-FF-11-00-6B
+A	17:14:37.466	"(0x) BE-6D-FF-11-00-6B" received
+I	17:14:37.466	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6A-FF-28-FF-C3
+A	17:14:37.466	"(0x) BE-6A-FF-28-FF-C3" received
+I	17:14:37.507	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6D-FF-2E-FF-C4
+A	17:14:37.507	"(0x) BE-6D-FF-2E-FF-C4" received
+I	17:14:37.508	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-72-FF-21-FF-B1
+A	17:14:37.508	"(0x) BE-72-FF-21-FF-B1" received
+I	17:14:37.508	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7A-FF-24-FF-BA
+A	17:14:37.508	"(0x) BE-7A-FF-24-FF-BA" received
+I	17:14:37.511	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-79-FF-01-00-02
+A	17:14:37.511	"(0x) BE-79-FF-01-00-02" received
+I	17:14:37.556	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-75-FF-0F-00-02
+A	17:14:37.556	"(0x) BE-75-FF-0F-00-02" received
+I	17:14:37.556	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-74-FF-0E-00-04
+A	17:14:37.556	"(0x) BE-74-FF-0E-00-04" received
+I	17:14:37.557	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-74-FF-01-00-02
+A	17:14:37.557	"(0x) BE-74-FF-01-00-02" received
+I	17:14:37.558	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-77-FF-16-FF-F3
+A	17:14:37.558	"(0x) BE-77-FF-16-FF-F3" received
+I	17:14:37.607	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6A-FF-1B-FF-F0
+A	17:14:37.607	"(0x) BE-6A-FF-1B-FF-F0" received
+I	17:14:37.607	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-71-FF-1D-FF-EC
+A	17:14:37.607	"(0x) BE-71-FF-1D-FF-EC" received
+I	17:14:37.608	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6D-FF-21-FF-E8
+A	17:14:37.608	"(0x) BE-6D-FF-21-FF-E8" received
+I	17:14:37.608	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7C-FF-19-FF-AE
+A	17:14:37.608	"(0x) BE-7C-FF-19-FF-AE" received
+I	17:14:37.655	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7B-FF-16-FF-A4
+A	17:14:37.655	"(0x) BE-7B-FF-16-FF-A4" received
+I	17:14:37.655	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-79-FF-17-FF-8F
+A	17:14:37.655	"(0x) BE-79-FF-17-FF-8F" received
+I	17:14:37.656	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-77-FF-11-FF-82
+A	17:14:37.656	"(0x) BE-77-FF-11-FF-82" received
+I	17:14:37.657	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-9F-FF-0D-00-18
+A	17:14:37.657	"(0x) BE-9F-FF-0D-00-18" received
+I	17:14:37.704	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-98-FF-08-00-14
+A	17:14:37.704	"(0x) BE-98-FF-08-00-14" received
+I	17:14:37.705	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-90-FF-15-00-07
+A	17:14:37.706	"(0x) BE-90-FF-15-00-07" received
+I	17:14:37.706	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-92-FF-10-00-07
+A	17:14:37.706	"(0x) BE-92-FF-10-00-07" received
+I	17:14:37.707	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7E-FF-3F-FF-DA
+A	17:14:37.707	"(0x) BE-7E-FF-3F-FF-DA" received
+I	17:14:37.752	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7B-FF-2D-FF-E3
+A	17:14:37.752	"(0x) BE-7B-FF-2D-FF-E3" received
+I	17:14:37.753	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-85-FF-22-FF-E8
+A	17:14:37.753	"(0x) BE-85-FF-22-FF-E8" received
+I	17:14:37.753	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-85-FF-24-FF-FF
+A	17:14:37.753	"(0x) BE-85-FF-24-FF-FF" received
+I	17:14:37.753	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-75-FF-14-00-07
+A	17:14:37.753	"(0x) BE-75-FF-14-00-07" received
+I	17:14:37.801	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7B-FF-0F-00-08
+A	17:14:37.801	"(0x) BE-7B-FF-0F-00-08" received
+I	17:14:37.801	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-89-FF-07-00-14
+A	17:14:37.801	"(0x) BE-89-FF-07-00-14" received
+I	17:14:37.801	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-8B-FF-0C-00-18
+A	17:14:37.801	"(0x) BE-8B-FF-0C-00-18" received
+I	17:14:37.802	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7D-FF-17-FF-D8
+A	17:14:37.802	"(0x) BE-7D-FF-17-FF-D8" received
+I	17:14:37.850	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7E-FF-1C-FF-DD
+A	17:14:37.850	"(0x) BE-7E-FF-1C-FF-DD" received
+I	17:14:37.851	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7C-FF-1A-FF-EE
+A	17:14:37.851	"(0x) BE-7C-FF-1A-FF-EE" received
+I	17:14:37.852	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-80-FF-11-FF-ED
+A	17:14:37.852	"(0x) BE-80-FF-11-FF-ED" received
+I	17:14:37.852	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7B-FF-2B-FF-94
+A	17:14:37.852	"(0x) BE-7B-FF-2B-FF-94" received
+I	17:14:37.904	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-82-FF-2A-FF-8D
+A	17:14:37.904	"(0x) BE-82-FF-2A-FF-8D" received
+I	17:14:37.906	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7C-FF-2A-FF-97
+A	17:14:37.906	"(0x) BE-7C-FF-2A-FF-97" received
+I	17:14:37.906	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7C-FF-24-FF-97
+A	17:14:37.906	"(0x) BE-7C-FF-24-FF-97" received
+I	17:14:37.906	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-69-FF-01-FF-FB
+A	17:14:37.906	"(0x) BE-69-FF-01-FF-FB" received
+I	17:14:37.946	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-66-FF-01-00-04
+A	17:14:37.946	"(0x) BE-66-FF-01-00-04" received
+I	17:14:37.946	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6A-FF-0B-FF-FD
+A	17:14:37.946	"(0x) BE-6A-FF-0B-FF-FD" received
+I	17:14:37.946	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-70-FF-0F-FF-FB
+A	17:14:37.946	"(0x) BE-70-FF-0F-FF-FB" received
+I	17:14:37.948	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6E-FF-29-FF-CF
+A	17:14:37.948	"(0x) BE-6E-FF-29-FF-CF" received
+I	17:14:37.995	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6A-FF-1A-FF-CB
+A	17:14:37.995	"(0x) BE-6A-FF-1A-FF-CB" received
+I	17:14:37.995	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-72-FF-1C-FF-D1
+A	17:14:37.995	"(0x) BE-72-FF-1C-FF-D1" received
+I	17:14:37.995	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-73-FF-19-FF-CB
+A	17:14:37.995	"(0x) BE-73-FF-19-FF-CB" received
+I	17:14:37.997	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-84-FF-1D-FF-F2
+A	17:14:37.997	"(0x) BE-84-FF-1D-FF-F2" received
+I	17:14:38.044	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7B-FF-1F-FF-E3
+A	17:14:38.044	"(0x) BE-7B-FF-1F-FF-E3" received
+I	17:14:38.044	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-71-FF-22-FF-E6
+A	17:14:38.044	"(0x) BE-71-FF-22-FF-E6" received
+I	17:14:38.045	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-71-FF-2A-FF-D4
+A	17:14:38.045	"(0x) BE-71-FF-2A-FF-D4" received
+I	17:14:38.046	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7F-FE-FC-FF-E7
+A	17:14:38.046	"(0x) BE-7F-FE-FC-FF-E7" received
+I	17:14:38.093	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7F-FF-02-FF-DD
+A	17:14:38.093	"(0x) BE-7F-FF-02-FF-DD" received
+I	17:14:38.095	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7D-FF-0F-FF-D2
+A	17:14:38.095	"(0x) BE-7D-FF-0F-FF-D2" received
+I	17:14:38.096	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7B-FF-02-FF-CA
+A	17:14:38.096	"(0x) BE-7B-FF-02-FF-CA" received
+I	17:14:38.096	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-73-FF-20-FF-8D
+A	17:14:38.096	"(0x) BE-73-FF-20-FF-8D" received
+I	17:14:38.141	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-72-FF-1D-FF-81
+A	17:14:38.141	"(0x) BE-72-FF-1D-FF-81" received
+I	17:14:38.142	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-8C-FF-1E-FF-7D
+A	17:14:38.142	"(0x) BE-8C-FF-1E-FF-7D" received
+I	17:14:38.143	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-83-FF-20-FF-75
+A	17:14:38.143	"(0x) BE-83-FF-20-FF-75" received
+I	17:14:38.143	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-74-FF-10-FF-83
+A	17:14:38.143	"(0x) BE-74-FF-10-FF-83" received
+I	17:14:38.190	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-74-FF-18-FF-9D
+A	17:14:38.190	"(0x) BE-74-FF-18-FF-9D" received
+I	17:14:38.190	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-71-FF-19-FF-AB
+A	17:14:38.190	"(0x) BE-71-FF-19-FF-AB" received
+I	17:14:38.190	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7A-FF-11-FF-9A
+A	17:14:38.190	"(0x) BE-7A-FF-11-FF-9A" received
+I	17:14:38.192	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-83-FF-11-FF-6F
+A	17:14:38.192	"(0x) BE-83-FF-11-FF-6F" received
+I	17:14:38.240	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-83-FF-08-FF-69
+A	17:14:38.240	"(0x) BE-83-FF-08-FF-69" received
+I	17:14:38.241	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-78-FF-1B-FF-72
+A	17:14:38.241	"(0x) BE-78-FF-1B-FF-72" received
+I	17:14:38.242	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6C-FF-22-FF-76
+A	17:14:38.242	"(0x) BE-6C-FF-22-FF-76" received
+I	17:14:38.242	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-8E-FF-2D-FF-58
+A	17:14:38.242	"(0x) BE-8E-FF-2D-FF-58" received
+I	17:14:38.289	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7F-FF-29-FF-5E
+A	17:14:38.289	"(0x) BE-7F-FF-29-FF-5E" received
+I	17:14:38.289	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7B-FF-22-FF-63
+A	17:14:38.289	"(0x) BE-7B-FF-22-FF-63" received
+I	17:14:38.289	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7D-FF-24-FF-64
+A	17:14:38.289	"(0x) BE-7D-FF-24-FF-64" received
+I	17:14:38.291	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7F-FF-2D-00-64
+A	17:14:38.291	"(0x) BE-7F-FF-2D-00-64" received
+I	17:14:38.336	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-82-FF-22-00-7D
+A	17:14:38.336	"(0x) BE-82-FF-22-00-7D" received
+I	17:14:38.337	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-89-FF-25-00-6A
+A	17:14:38.337	"(0x) BE-89-FF-25-00-6A" received
+I	17:14:38.338	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-75-FF-33-00-62
+A	17:14:38.338	"(0x) BE-75-FF-33-00-62" received
+I	17:14:38.338	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-76-FF-29-FF-9C
+A	17:14:38.338	"(0x) BE-76-FF-29-FF-9C" received
+I	17:14:38.385	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6D-FF-29-FF-AF
+A	17:14:38.385	"(0x) BE-6D-FF-29-FF-AF" received
+I	17:14:38.386	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-76-FF-1A-FF-B4
+A	17:14:38.386	"(0x) BE-76-FF-1A-FF-B4" received
+I	17:14:38.387	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7E-FF-1A-FF-B5
+A	17:14:38.387	"(0x) BE-7E-FF-1A-FF-B5" received
+I	17:14:38.387	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-8F-FF-26-FF-D4
+A	17:14:38.387	"(0x) BE-8F-FF-26-FF-D4" received
+I	17:14:38.434	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-8C-FF-25-FF-CE
+A	17:14:38.434	"(0x) BE-8C-FF-25-FF-CE" received
+I	17:14:38.436	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-81-FF-24-FF-B9
+A	17:14:38.436	"(0x) BE-81-FF-24-FF-B9" received
+I	17:14:38.436	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-80-FF-2B-FF-C0
+A	17:14:38.436	"(0x) BE-80-FF-2B-FF-C0" received
+I	17:14:38.437	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-82-FE-FE-FF-FF
+A	17:14:38.437	"(0x) BE-82-FE-FE-FF-FF" received
+I	17:14:38.482	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-8D-FE-FD-00-04
+A	17:14:38.482	"(0x) BE-8D-FE-FD-00-04" received
+I	17:14:38.484	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-8C-FE-F9-00-04
+A	17:14:38.484	"(0x) BE-8C-FE-F9-00-04" received
+I	17:14:38.484	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7F-FE-F9-00-01
+A	17:14:38.484	"(0x) BE-7F-FE-F9-00-01" received
+I	17:14:38.485	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-73-FF-29-FF-76
+A	17:14:38.485	"(0x) BE-73-FF-29-FF-76" received
+I	17:14:38.533	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7B-FF-2A-FF-7E
+A	17:14:38.533	"(0x) BE-7B-FF-2A-FF-7E" received
+I	17:14:38.533	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-75-FF-2E-FF-87
+A	17:14:38.533	"(0x) BE-75-FF-2E-FF-87" received
+I	17:14:38.533	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-73-FF-2C-FF-97
+A	17:14:38.533	"(0x) BE-73-FF-2C-FF-97" received
+I	17:14:38.534	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7E-FF-23-FF-E1
+A	17:14:38.534	"(0x) BE-7E-FF-23-FF-E1" received
+I	17:14:38.580	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-83-FF-1C-FF-D9
+A	17:14:38.580	"(0x) BE-83-FF-1C-FF-D9" received
+I	17:14:38.580	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6F-FF-21-FF-DF
+A	17:14:38.580	"(0x) BE-6F-FF-21-FF-DF" received
+I	17:14:38.580	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7B-FF-27-FF-E5
+A	17:14:38.580	"(0x) BE-7B-FF-27-FF-E5" received
+I	17:14:38.582	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-74-FF-17-FF-F9
+A	17:14:38.582	"(0x) BE-74-FF-17-FF-F9" received
+I	17:14:38.629	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-69-FF-17-FF-F1
+A	17:14:38.629	"(0x) BE-69-FF-17-FF-F1" received
+I	17:14:38.629	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-74-FF-1B-FF-EA
+A	17:14:38.629	"(0x) BE-74-FF-1B-FF-EA" received
+I	17:14:38.629	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6A-FF-13-FF-F6
+A	17:14:38.629	"(0x) BE-6A-FF-13-FF-F6" received
+I	17:14:38.631	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-85-FF-2B-00-0C
+A	17:14:38.631	"(0x) BE-85-FF-2B-00-0C" received
+I	17:14:38.678	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-83-FF-3D-00-10
+A	17:14:38.678	"(0x) BE-83-FF-3D-00-10" received
+I	17:14:38.678	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7B-FF-2B-00-04
+A	17:14:38.678	"(0x) BE-7B-FF-2B-00-04" received
+I	17:14:38.678	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-94-FF-12-FF-EC
+A	17:14:38.678	"(0x) BE-94-FF-12-FF-EC" received
+I	17:14:38.680	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-71-FF-25-FF-84
+A	17:14:38.680	"(0x) BE-71-FF-25-FF-84" received
+I	17:14:38.726	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-72-FF-26-FF-82
+A	17:14:38.726	"(0x) BE-72-FF-26-FF-82" received
+I	17:14:38.727	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-80-FF-25-FF-7B
+A	17:14:38.727	"(0x) BE-80-FF-25-FF-7B" received
+I	17:14:38.727	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-80-FF-1A-FF-73
+A	17:14:38.727	"(0x) BE-80-FF-1A-FF-73" received
+I	17:14:38.728	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-71-FF-17-FF-DD
+A	17:14:38.728	"(0x) BE-71-FF-17-FF-DD" received
+I	17:14:38.775	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-74-FF-17-FF-D6
+A	17:14:38.775	"(0x) BE-74-FF-17-FF-D6" received
+I	17:14:38.775	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-72-FF-19-FF-D7
+A	17:14:38.775	"(0x) BE-72-FF-19-FF-D7" received
+I	17:14:38.776	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6E-FF-1C-FF-CD
+A	17:14:38.776	"(0x) BE-6E-FF-1C-FF-CD" received
+I	17:14:38.777	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-82-FF-1F-FF-9C
+A	17:14:38.777	"(0x) BE-82-FF-1F-FF-9C" received
+I	17:14:38.825	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7F-FF-18-FF-A0
+A	17:14:38.825	"(0x) BE-7F-FF-18-FF-A0" received
+I	17:14:38.826	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-78-FF-1D-FF-A2
+A	17:14:38.826	"(0x) BE-78-FF-1D-FF-A2" received
+I	17:14:38.826	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-78-FF-27-FF-A0
+A	17:14:38.826	"(0x) BE-78-FF-27-FF-A0" received
+I	17:14:38.827	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-72-FF-25-FF-E1
+A	17:14:38.827	"(0x) BE-72-FF-25-FF-E1" received
+I	17:14:38.874	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7A-FF-1E-FF-EF
+A	17:14:38.874	"(0x) BE-7A-FF-1E-FF-EF" received
+I	17:14:38.874	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7E-FF-28-00-01
+A	17:14:38.874	"(0x) BE-7E-FF-28-00-01" received
+I	17:14:38.874	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-87-FF-25-00-04
+A	17:14:38.874	"(0x) BE-87-FF-25-00-04" received
+I	17:14:38.877	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-80-FF-25-FF-CB
+A	17:14:38.877	"(0x) BE-80-FF-25-FF-CB" received
+I	17:14:38.922	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7F-FF-18-FF-CE
+A	17:14:38.922	"(0x) BE-7F-FF-18-FF-CE" received
+I	17:14:38.923	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7E-FF-12-FF-AE
+A	17:14:38.923	"(0x) BE-7E-FF-12-FF-AE" received
+I	17:14:38.924	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-8F-FF-0E-FF-A7
+A	17:14:38.924	"(0x) BE-8F-FF-0E-FF-A7" received
+I	17:14:38.925	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-66-FF-1A-FF-8A
+A	17:14:38.925	"(0x) BE-66-FF-1A-FF-8A" received
+I	17:14:38.970	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-60-FF-27-FF-82
+A	17:14:38.970	"(0x) BE-60-FF-27-FF-82" received
+I	17:14:38.971	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-5C-FF-26-FF-78
+A	17:14:38.971	"(0x) BE-5C-FF-26-FF-78" received
+I	17:14:38.971	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-53-FF-2E-FF-84
+A	17:14:38.971	"(0x) BE-53-FF-2E-FF-84" received
+I	17:14:38.972	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6E-FF-2C-FF-C9
+A	17:14:38.972	"(0x) BE-6E-FF-2C-FF-C9" received
+I	17:14:39.020	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6A-FF-26-FF-CE
+A	17:14:39.020	"(0x) BE-6A-FF-26-FF-CE" received
+I	17:14:39.021	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-65-FF-26-FF-CE
+A	17:14:39.021	"(0x) BE-65-FF-26-FF-CE" received
+I	17:14:39.021	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-6C-FF-2C-FF-B9
+A	17:14:39.021	"(0x) BE-6C-FF-2C-FF-B9" received
+I	17:14:39.021	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7A-FF-1A-FF-64
+A	17:14:39.021	"(0x) BE-7A-FF-1A-FF-64" received
+I	17:14:39.069	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-76-FF-15-FF-5B
+A	17:14:39.069	"(0x) BE-76-FF-15-FF-5B" received
+I	17:14:39.070	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7F-FF-22-FF-4D
+A	17:14:39.070	"(0x) BE-7F-FF-22-FF-4D" received
+I	17:14:39.070	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7C-FF-21-FF-46
+A	17:14:39.070	"(0x) BE-7C-FF-21-FF-46" received
+I	17:14:39.071	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-80-FF-1D-FF-31
+A	17:14:39.071	"(0x) BE-80-FF-1D-FF-31" received
+I	17:14:39.118	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7F-FF-14-FF-26
+A	17:14:39.118	"(0x) BE-7F-FF-14-FF-26" received
+I	17:14:39.119	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7C-FF-1F-FF-31
+A	17:14:39.119	"(0x) BE-7C-FF-1F-FF-31" received
+I	17:14:39.119	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7F-FF-1F-FF-31
+A	17:14:39.119	"(0x) BE-7F-FF-1F-FF-31" received
+I	17:14:39.121	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-93-FC-42-FF-49
+A	17:14:39.121	"(0x) BD-93-FC-42-FF-49" received
+I	17:14:39.165	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-80-FC-07-FF-6E
+A	17:14:39.165	"(0x) BD-80-FC-07-FF-6E" received
+I	17:14:39.165	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-7F-FB-E1-FF-7B
+A	17:14:39.166	"(0x) BD-7F-FB-E1-FF-7B" received
+I	17:14:39.166	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-74-FB-C9-FF-79
+A	17:14:39.166	"(0x) BD-74-FB-C9-FF-79" received
+I	17:14:39.169	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-C2-FD-59-FF-12
+A	17:14:39.169	"(0x) BD-C2-FD-59-FF-12" received
+I	17:14:39.215	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-BB-FD-65-FF-14
+A	17:14:39.215	"(0x) BD-BB-FD-65-FF-14" received
+I	17:14:39.216	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-C7-FD-6F-FF-0C
+A	17:14:39.216	"(0x) BD-C7-FD-6F-FF-0C" received
+I	17:14:39.216	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-D8-FD-81-FF-1F
+A	17:14:39.216	"(0x) BD-D8-FD-81-FF-1F" received
+I	17:14:39.216	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-D5-FE-46-FF-F0
+A	17:14:39.216	"(0x) BD-D5-FE-46-FF-F0" received
+I	17:14:39.264	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-DA-FE-57-FF-EE
+A	17:14:39.264	"(0x) BD-DA-FE-57-FF-EE" received
+I	17:14:39.265	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-DE-FE-7C-FF-F0
+A	17:14:39.265	"(0x) BD-DE-FE-7C-FF-F0" received
+I	17:14:39.265	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-DF-FE-9A-FF-E4
+A	17:14:39.265	"(0x) BD-DF-FE-9A-FF-E4" received
+I	17:14:39.265	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-85-01-B4-FE-F6
+A	17:14:39.265	"(0x) BE-85-01-B4-FE-F6" received
+I	17:14:39.312	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-8A-01-D5-FE-EE
+A	17:14:39.312	"(0x) BE-8A-01-D5-FE-EE" received
+I	17:14:39.315	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-88-01-F8-FE-E5
+A	17:14:39.315	"(0x) BE-88-01-F8-FE-E5" received
+I	17:14:39.318	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-81-02-16-FE-EB
+A	17:14:39.318	"(0x) BE-81-02-16-FE-EB" received
+I	17:14:39.319	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-7E-03-54-FE-FD
+A	17:14:39.319	"(0x) BE-7E-03-54-FE-FD" received
+I	17:14:39.360	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-AD-03-A8-FF-88
+A	17:14:39.360	"(0x) BE-AD-03-A8-FF-88" received
+I	17:14:39.360	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-BC-03-D9-FF-EA
+A	17:14:39.360	"(0x) BE-BC-03-D9-FF-EA" received
+I	17:14:39.361	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-CE-03-DC-00-18
+A	17:14:39.361	"(0x) BE-CE-03-DC-00-18" received
+I	17:14:39.362	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-13-06-D0-FF-EE
+A	17:14:39.362	"(0x) BE-13-06-D0-FF-EE" received
+I	17:14:39.409	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-5E-06-47-FF-85
+A	17:14:39.409	"(0x) BE-5E-06-47-FF-85" received
+I	17:14:39.410	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-83-06-7C-FF-08
+A	17:14:39.410	"(0x) BE-83-06-7C-FF-08" received
+I	17:14:39.410	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-E1-06-7C-FE-89
+A	17:14:39.411	"(0x) BE-E1-06-7C-FE-89" received
+I	17:14:39.411	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-98-03-D6-FB-31
+A	17:14:39.411	"(0x) BD-98-03-D6-FB-31" received
+I	17:14:39.459	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-7C-03-3C-FB-7E
+A	17:14:39.459	"(0x) BD-7C-03-3C-FB-7E" received
+I	17:14:39.461	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-FE-02-B3-FB-72
+A	17:14:39.461	"(0x) BD-FE-02-B3-FB-72" received
+I	17:14:39.461	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-E8-02-A7-FB-84
+A	17:14:39.461	"(0x) BD-E8-02-A7-FB-84" received
+I	17:14:39.461	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-63-0A-6B-FF-72
+A	17:14:39.461	"(0x) BE-63-0A-6B-FF-72" received
+I	17:14:39.508	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BD-35-0C-8A-FF-98
+A	17:14:39.508	"(0x) BD-35-0C-8A-FF-98" received
+I	17:14:39.508	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-49-0D-01-FF-64
+A	17:14:39.508	"(0x) BE-49-0D-01-FF-64" received
+I	17:14:39.508	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) BE-CD-0D-68-FE-F3
+A	17:14:39.508	"(0x) BE-CD-0D-68-FE-F3" received
+I	17:14:39.509	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C1-E2-14-23-03-A3
+A	17:14:39.509	"(0x) C1-E2-14-23-03-A3" received
+I	17:14:39.555	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C2-38-13-3E-02-FF
+A	17:14:39.555	"(0x) C2-38-13-3E-02-FF" received
+I	17:14:39.555	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C1-C4-12-A5-02-18
+A	17:14:39.555	"(0x) C1-C4-12-A5-02-18" received
+I	17:14:39.555	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C1-D5-11-C2-00-B4
+A	17:14:39.555	"(0x) C1-D5-11-C2-00-B4" received
+I	17:14:39.557	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C3-74-14-81-05-57
+A	17:14:39.557	"(0x) C3-74-14-81-05-57" received
+I	17:14:39.603	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C3-BD-15-38-05-6F
+A	17:14:39.603	"(0x) C3-BD-15-38-05-6F" received
+I	17:14:39.604	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C3-BA-14-87-06-3F
+A	17:14:39.604	"(0x) C3-BA-14-87-06-3F" received
+I	17:14:39.604	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C3-92-13-87-06-A9
+A	17:14:39.604	"(0x) C3-92-13-87-06-A9" received
+I	17:14:39.605	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C6-8A-1B-0B-0A-61
+A	17:14:39.605	"(0x) C6-8A-1B-0B-0A-61" received
+I	17:14:39.654	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C6-F2-1B-FB-0A-DD
+A	17:14:39.654	"(0x) C6-F2-1B-FB-0A-DD" received
+I	17:14:39.655	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C6-C5-1B-C5-0C-15
+A	17:14:39.655	"(0x) C6-C5-1B-C5-0C-15" received
+I	17:14:39.656	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C6-B1-1B-23-0D-42
+A	17:14:39.656	"(0x) C6-B1-1B-23-0D-42" received
+I	17:14:39.656	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C7-35-1B-2E-0A-1E
+A	17:14:39.656	"(0x) C7-35-1B-2E-0A-1E" received
+I	17:14:39.702	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C7-F9-1A-EB-0A-1C
+A	17:14:39.702	"(0x) C7-F9-1A-EB-0A-1C" received
+I	17:14:39.703	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C7-73-1B-2D-0A-D3
+A	17:14:39.703	"(0x) C7-73-1B-2D-0A-D3" received
+I	17:14:39.704	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C7-E5-1A-ED-0A-B2
+A	17:14:39.704	"(0x) C7-E5-1A-ED-0A-B2" received
+I	17:14:39.705	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C9-F8-1E-FB-0F-7E
+A	17:14:39.705	"(0x) C9-F8-1E-FB-0F-7E" received
+I	17:14:39.750	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C9-90-1F-09-0F-82
+A	17:14:39.750	"(0x) C9-90-1F-09-0F-82" received
+I	17:14:39.750	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C9-14-1E-7A-0F-5A
+A	17:14:39.750	"(0x) C9-14-1E-7A-0F-5A" received
+I	17:14:39.751	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C8-14-1E-21-0F-46
+A	17:14:39.751	"(0x) C8-14-1E-21-0F-46" received
+I	17:14:39.752	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CA-A3-1C-73-13-B2
+A	17:14:39.752	"(0x) CA-A3-1C-73-13-B2" received
+I	17:14:39.799	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CA-52-1C-9F-13-AA
+A	17:14:39.799	"(0x) CA-52-1C-9F-13-AA" received
+I	17:14:39.799	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C9-D0-1D-DB-13-6E
+A	17:14:39.799	"(0x) C9-D0-1D-DB-13-6E" received
+I	17:14:39.799	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) C9-25-1D-34-13-4F
+A	17:14:39.799	"(0x) C9-25-1D-34-13-4F" received
+I	17:14:39.802	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CD-1D-1F-28-17-B7
+A	17:14:39.802	"(0x) CD-1D-1F-28-17-B7" received
+I	17:14:39.849	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CD-30-1E-CB-17-D9
+A	17:14:39.849	"(0x) CD-30-1E-CB-17-D9" received
+I	17:14:39.851	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CD-32-1E-7F-17-E5
+A	17:14:39.851	"(0x) CD-32-1E-7F-17-E5" received
+I	17:14:39.853	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) CD-4A-1E-5F-18-23
+A	17:14:39.853	"(0x) CD-4A-1E-5F-18-23" received
+I	17:14:39.854	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D0-51-1C-28-1C-DD
+A	17:14:39.854	"(0x) D0-51-1C-28-1C-DD" received
+I	17:14:39.897	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D0-4C-1C-42-1D-27
+A	17:14:39.897	"(0x) D0-4C-1C-42-1D-27" received
+I	17:14:39.898	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D0-36-1C-22-1D-A3
+A	17:14:39.898	"(0x) D0-36-1C-22-1D-A3" received
+I	17:14:39.898	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D0-02-1B-DE-1E-03
+A	17:14:39.898	"(0x) D0-02-1B-DE-1E-03" received
+I	17:14:39.899	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D5-31-1F-46-24-23
+A	17:14:39.899	"(0x) D5-31-1F-46-24-23" received
+I	17:14:39.945	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D5-30-1F-69-23-FB
+A	17:14:39.945	"(0x) D5-30-1F-69-23-FB" received
+I	17:14:39.945	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D5-12-1F-77-23-D9
+A	17:14:39.945	"(0x) D5-12-1F-77-23-D9" received
+I	17:14:39.945	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D4-F1-1F-55-23-DA
+A	17:14:39.945	"(0x) D4-F1-1F-55-23-DA" received
+I	17:14:39.947	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D7-31-18-C2-26-A4
+A	17:14:39.947	"(0x) D7-31-18-C2-26-A4" received
+I	17:14:39.994	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D7-0C-18-34-26-8B
+A	17:14:39.994	"(0x) D7-0C-18-34-26-8B" received
+I	17:14:39.994	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D7-2C-18-50-26-4E
+A	17:14:39.994	"(0x) D7-2C-18-50-26-4E" received
+I	17:14:39.994	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) D7-5D-18-79-26-29
+A	17:14:39.995	"(0x) D7-5D-18-79-26-29" received
+I	17:14:39.996	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E0-1A-20-9E-30-03
+A	17:14:39.996	"(0x) E0-1A-20-9E-30-03" received
+I	17:14:40.043	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E0-3D-20-87-2F-E6
+A	17:14:40.043	"(0x) E0-3D-20-87-2F-E6" received
+I	17:14:40.043	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E0-45-20-76-2F-D1
+A	17:14:40.043	"(0x) E0-45-20-76-2F-D1" received
+I	17:14:40.043	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E0-44-20-4F-2F-AE
+A	17:14:40.043	"(0x) E0-44-20-4F-2F-AE" received
+I	17:14:40.045	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E1-EB-1D-A2-31-BE
+A	17:14:40.045	"(0x) E1-EB-1D-A2-31-BE" received
+I	17:14:40.093	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E1-F9-1D-BC-31-AC
+A	17:14:40.093	"(0x) E1-F9-1D-BC-31-AC" received
+I	17:14:40.094	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E2-05-1D-A6-31-B7
+A	17:14:40.094	"(0x) E2-05-1D-A6-31-B7" received
+I	17:14:40.094	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E2-4E-1D-8B-31-C1
+A	17:14:40.094	"(0x) E2-4E-1D-8B-31-C1" received
+I	17:14:40.094	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E4-3F-15-A9-32-DD
+A	17:14:40.094	"(0x) E4-3F-15-A9-32-DD" received
+I	17:14:40.140	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E4-B1-16-0A-32-C4
+A	17:14:40.140	"(0x) E4-B1-16-0A-32-C4" received
+I	17:14:40.141	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E5-01-16-4E-32-8D
+A	17:14:40.141	"(0x) E5-01-16-4E-32-8D" received
+I	17:14:40.142	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E5-6B-16-7F-32-85
+A	17:14:40.142	"(0x) E5-6B-16-7F-32-85" received
+I	17:14:40.142	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E9-93-14-3F-40-38
+A	17:14:40.142	"(0x) E9-93-14-3F-40-38" received
+I	17:14:40.189	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E9-AA-13-D9-40-09
+A	17:14:40.189	"(0x) E9-AA-13-D9-40-09" received
+I	17:14:40.189	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E9-B1-13-8E-3F-F8
+A	17:14:40.189	"(0x) E9-B1-13-8E-3F-F8" received
+I	17:14:40.189	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E9-C2-13-69-3F-D2
+A	17:14:40.189	"(0x) E9-C2-13-69-3F-D2" received
+I	17:14:40.190	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) EC-20-10-8E-3A-8D
+A	17:14:40.190	"(0x) EC-20-10-8E-3A-8D" received
+I	17:14:40.238	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) EB-F2-10-E3-3A-AD
+A	17:14:40.238	"(0x) EB-F2-10-E3-3A-AD" received
+I	17:14:40.238	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) EB-B7-11-0F-3A-A4
+A	17:14:40.238	"(0x) EB-B7-11-0F-3A-A4" received
+I	17:14:40.238	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) EB-6A-11-11-3A-CC
+A	17:14:40.238	"(0x) EB-6A-11-11-3A-CC" received
+I	17:14:40.239	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E9-FE-0C-D5-3D-DC
+A	17:14:40.239	"(0x) E9-FE-0C-D5-3D-DC" received
+I	17:14:40.287	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E9-69-0C-24-3F-93
+A	17:14:40.287	"(0x) E9-69-0C-24-3F-93" received
+I	17:14:40.287	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E9-28-0B-7E-3F-BE
+A	17:14:40.287	"(0x) E9-28-0B-7E-3F-BE" received
+I	17:14:40.289	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) E8-28-0A-70-3F-87
+A	17:14:40.290	"(0x) E8-28-0A-70-3F-87" received
+I	17:14:40.290	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F2-C0-0E-0F-42-FA
+A	17:14:40.290	"(0x) F2-C0-0E-0F-42-FA" received
+I	17:14:40.341	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F2-24-0D-8F-43-50
+A	17:14:40.341	"(0x) F2-24-0D-8F-43-50" received
+I	17:14:40.342	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F0-3F-0C-E6-42-A4
+A	17:14:40.342	"(0x) F0-3F-0C-E6-42-A4" received
+I	17:14:40.342	Notification received from 00005283-0000-1000-8000-00805f9b34fb, value: (0x) F0-5D-0D-32-42-1D
+A	17:14:40.342	"(0x) F0-5D-0D-32-42-1D" received
